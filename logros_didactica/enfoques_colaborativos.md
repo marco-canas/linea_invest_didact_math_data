@@ -11,3 +11,10 @@ Título del libro: Entornos de Aprendizaje Innovadores: *Transformación digital
 
 
 
+# Eventos realizados de manera conjunta 
+
+Dos ferias de Oportunidades. 
+Estos son espacios donde las Universidades de la Región, se unen para mostrar los horizontes profesionales a los 
+estudiantes de Bachillerato. 
+
+
