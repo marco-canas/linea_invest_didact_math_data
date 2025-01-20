@@ -1,0 +1,23 @@
+digraph {
+	A [label="Dos propuestas de Formación en Competencias Digitales" color=lightblue shape=box style=filled]
+	B [label="Propuesta 1: Implementación de Aprendizaje Automático para la Optimización de Decisiones en Modelos de Negocios Digitales" color=lightgreen shape=ellipse style=filled]
+	B1 [label="Análisis de datos masivos" color=lightyellow shape=box style="rounded,filled"]
+	B -> B1
+	B2 [label="Modelos predictivos basados en Machine Learning" color=lightyellow shape=box style="rounded,filled"]
+	B -> B2
+	B3 [label="Optimización de procesos en negocios digitales" color=lightyellow shape=box style="rounded,filled"]
+	B -> B3
+	B4 [label="Publicación de resultados en revistas académicas" color=lightyellow shape=box style="rounded,filled"]
+	B -> B4
+	C [label="Propuesta 2: Competencias Digitales y Liderazgo Ético en la Gestión de Datos Sensibles" color=lightpink shape=ellipse style=filled]
+	C1 [label="Formación en ciberseguridad y privacidad de datos" color=lightgray shape=box style="rounded,filled"]
+	C -> C1
+	C2 [label="Ética en la gestión de datos sensibles" color=lightgray shape=box style="rounded,filled"]
+	C -> C2
+	C3 [label="Desarrollo de habilidades de liderazgo digital" color=lightgray shape=box style="rounded,filled"]
+	C -> C3
+	C4 [label="Diseño de políticas para el manejo responsable de datos" color=lightgray shape=box style="rounded,filled"]
+	C -> C4
+	A -> B
+	A -> C
+}
