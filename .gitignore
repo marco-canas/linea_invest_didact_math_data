@@ -2,3 +2,15 @@
 .Rhistory
 .RData
 .Ruserdata
+venv/
+3_datasets/
+# Archivos compilados de Python
+*.pyc
+__pycache__/
+
+# Archivos binarios
+*.pyd
+
+# Datos grandes
+*.csv
+*.shp
