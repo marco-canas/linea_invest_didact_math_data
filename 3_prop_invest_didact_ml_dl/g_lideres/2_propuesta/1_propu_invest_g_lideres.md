@@ -113,7 +113,7 @@ ANDI. (2022). *La transformación digital en el sector empresarial colombiano*. 
 
 Becker, G. S. (1964). *Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education*. University of Chicago Press.
 
-Bharadwaj, A., El Sawy, O., Pavlou, P., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471-482. https://doi.org/10.25300/MISQ/2013/37.2.10
+[Bharadwaj, A., El Sawy, O., Pavlou, P., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471-482. https://doi.org/10.25300/MISQ/2013/37.2.10](file:///C:/Users/marco/Downloads/ERCISWP34ISStrategyandDigitalizationLitReview.pdf)
 
 CEPAL. (2020). *La era digital y su impacto en América Latina*. Naciones Unidas.
 
