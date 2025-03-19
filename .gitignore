@@ -1,8 +1,11 @@
+9_datasets/
+.venv/
+
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-venv/
+
 3_datasets/
 # Archivos compilados de Python
 *.pyc
