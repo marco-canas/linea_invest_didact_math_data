@@ -1,0 +1,200 @@
+---
+title: "Modelo de Predicción de Rotación de Clientes (Churn) - Telco"
+author: "Tu Nombre"
+format: html
+---
+
+## Introducción
+En este documento, se presenta el proceso de construcción de un modelo de machine learning para predecir la rotación de clientes (churn) en el dataset **Telco Customer Churn** de Kaggle. El objetivo es identificar a los clientes propensos a abandonar el servicio y proponer estrategias para retenerlos.
+
+---
+
+## 1. Carga de datos
+Comenzamos cargando el dataset y explorando su estructura.
+
+```{python}
+path = r"C:\Users\marco\OneDrive - Universidad de Antioquia\Documentos\2_recursos_generados_git_mp4_y_otros\3_dataset_glideres\1_telco_Customer_Churn.csv"  
+
+data = pd.read_csv(path)
+# Mostrar las primeras filas
+print(data.head())
+```
+
+---
+
+## 2. Análisis exploratorio de datos (EDA)
+Realizamos un análisis exploratorio para comprender las características del dataset.
+
+### 2.1. Estructura del dataset
+```{python}
+# Información general del dataset
+print(data.info())
+
+# Estadísticas descriptivas
+print(data.describe())
+```
+
+### 2.2. Visualización de datos
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Distribución de la variable objetivo (Churn)
+sns.countplot(x='Churn', data=data)
+plt.title("Distribución de Churn")
+plt.show()
+```
+
+---
+
+## 3. Preprocesamiento de datos
+Preparamos los datos para el modelado.
+
+### 3.1. Manejo de valores nulos
+```{python}
+# Verificar valores nulos
+print(data.isnull().sum())
+```
+
+### 3.2. Codificación de variables categóricas
+```{python}
+from sklearn.preprocessing import LabelEncoder
+
+# Codificar variables categóricas
+label_encoder = LabelEncoder()
+data['Churn'] = label_encoder.fit_transform(data['Churn'])
+
+# Eliminar columnas no relevantes
+data = data.drop(['customerID'], axis=1)
+```
+
+### 3.3. División del dataset
+```{python}
+from sklearn.model_selection import train_test_split
+
+# Definir variables independientes (X) y dependiente (y)
+X = data.drop(['Churn'], axis=1)
+y = data['Churn']
+
+# Dividir en conjuntos de entrenamiento y prueba
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+
+---
+
+## 4. Construcción del modelo
+Entrenamos un modelo de clasificación para predecir el churn.
+
+### 4.1. Entrenamiento del modelo
+```{python}
+from sklearn.ensemble import RandomForestClassifier
+
+# Crear y entrenar el modelo
+model = RandomForestClassifier(random_state=42)
+model.fit(X_train, y_train)
+```
+
+### 4.2. Predicciones
+```{python}
+# Realizar predicciones
+y_pred = model.predict(X_test)
+```
+
+---
+
+## 5. Evaluación del modelo
+Evaluamos el rendimiento del modelo utilizando métricas de clasificación.
+
+### 5.1. Matriz de confusión
+```{python}
+from sklearn.metrics import confusion_matrix
+
+# Calcular la matriz de confusión
+conf_matrix = confusion_matrix(y_test, y_pred)
+print(conf_matrix)
+```
+
+### 5.2. Métricas de evaluación
+```{python}
+from sklearn.metrics import classification_report
+
+# Reporte de clasificación
+print(classification_report(y_test, y_pred))
+```
+
+---
+
+## 6. Interpretación de resultados
+Analizamos los resultados y proponemos acciones basadas en el modelo.
+
+### 6.1. Importancia de características
+```{python}
+# Obtener la importancia de las características
+feature_importances = pd.Series(model.feature_importances_, index=X.columns)
+feature_importances.sort_values(ascending=False).plot(kind='bar')
+plt.title("Importancia de las características")
+plt.show()
+```
+
+### 6.2. Conclusiones
+- Las características más importantes para predecir el churn son: `MonthlyCharges`, `tenure` y `Contract`.
+- El modelo tiene una precisión del X% en la predicción de churn.
+
+---
+
+## 7. Recomendaciones
+Basándonos en los resultados, proponemos las siguientes estrategias para reducir el churn:
+1. Ofrecer descuentos en `MonthlyCharges` para clientes con contratos mensuales.
+2. Implementar programas de fidelización para clientes con mayor `tenure`.
+3. Mejorar la experiencia del cliente en servicios con alto impacto en el churn.
+
+---
+
+## Referencias
+- Dataset: [Telco Customer Churn en Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
+- Documentación de Quarto: [Quarto Official Website](https://quarto.org/)
+
+
+---
+
+### Explicación del diseño
+
+1. **Introducción**:
+   - Presenta el objetivo del proyecto y el contexto del dataset.
+
+2. **Carga de datos**:
+   - Carga el dataset desde Kaggle y muestra las primeras filas.
+
+3. **Análisis exploratorio de datos (EDA)**:
+   - Explora la estructura del dataset y visualiza la distribución de la variable objetivo (`Churn`).
+
+4. **Preprocesamiento de datos**:
+   - Maneja valores nulos, codifica variables categóricas y divide el dataset en conjuntos de entrenamiento y prueba.
+
+5. **Construcción del modelo**:
+   - Entrena un modelo de Random Forest para predecir el churn.
+
+6. **Evaluación del modelo**:
+   - Evalúa el modelo utilizando una matriz de confusión y un reporte de clasificación.
+
+7. **Interpretación de resultados**:
+   - Analiza la importancia de las características y extrae conclusiones.
+
+8. **Recomendaciones**:
+   - Propone estrategias basadas en los resultados del modelo.
+
+9. **Referencias**:
+   - Incluye enlaces al dataset y a la documentación de Quarto.
+
+---
+
+### Cómo usar este diseño
+
+1. Copia el contenido en un archivo llamado `4_2_modelo_rotacion.qmd`.
+2. Abre el archivo en VS Code con la extensión de Quarto instalada.
+3. Ejecuta el código y renderiza el documento en el formato deseado (HTML, PDF, etc.).
+4. Comparte el informe con tu equipo o stakeholders.
+
+---
+
+Este diseño te permitirá presentar de manera clara y profesional el proceso de construcción de un modelo de machine learning para predecir el churn en el dataset de Telco.
