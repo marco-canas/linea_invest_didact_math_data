@@ -47,13 +47,13 @@ Los estudiantes del programa enfrentan:
 
 ### *Marco Conceptual*
 
-**1. Transformación Digital**
+**1. Transformación Digital (TD)**
 
 Se refiere a un proceso de cambio fundamental, habilitado por el uso innovador de las tecnologías digitales y el apalancamiento estratégico de recursos y capacidades clave, que tiene como objetivo mejorar radicalmente una entidad y redefinir su propuesta de valor para sus partes interesadas (Gong & Ribiere, 2021).
 
 ---
 
-**2. Tecnologías Digitales**
+**2. Tecnologías Digitales (TDs)**
 
 Herramientas y sistemas basados en la informática y las telecomunicaciones que permiten la recopilación, procesamiento, almacenamiento y transmisión de datos de manera electrónica. Estas incluyen dispositivos como computadoras, teléfonos inteligentes, software, inteligencia artificial, internet de las cosas (IoT) y tecnologías de la nube, entre otras (Schwab, 2016).
 
@@ -73,23 +73,23 @@ La TD implica integrar tecnologías primarias (Big Data, IoT) y secundarias (IA,
 
 **Diseño**: Mixto (cuasi-experimental y cualitativo) con medición pre-post intervención.
 
-**Población**: Estudiantes activos del programa G-Líderes.
+**Población**: Estudiantes activos del programa G-Líderes (15 estudiantes).
 
 **Fases**:
 
 1. **Diagnóstico**: Encuestas y pruebas prácticas.
-2. **Intervención**: Talleres en Power BI, Python y proyectos aplicados con técnicas de machine learning y deep learning.
+2. **Intervención**: Talleres en Power BI, Python, R, y proyectos aplicados con técnicas de machine learning y deep learning.
 3. **Evaluación**: Pruebas post, encuestas de satisfacción y *focus groups*.
 4. **Análisis**:
-   - *Cuantitativo*: Estadística descriptiva, pruebas t-student y ANOVA.
-   - *Cualitativo*: Codificación temática con apoyo de software especializado.
+   - *Cuantitativo*: Estadística descriptiva, pruebas t-student y ANOVA (Lo realizaremos con Librería de Python).
+   - *Cualitativo*: Codificación temática con apoyo de software especializado asociado a Python.
 
 ---
 
 ## **Avances Preliminares**
 
 - Taller 1 de lenguaje python y de obtención y visualización tabular de datos con cuadernos Jupyter Editados con Google Colab con el dataset Housing utilizado para constitución de modelos de machine learnig para la predicción de precios de viviendas.
-- Taller 2: Obtención y visualización tabular y gráfica de datos usados para constituir un modelo de machine learning para predicción de deserción de cliente.
+- Taller 2: Obtención y visualización tabular y gráfica de datos usados para constituir un modelo de machine learning para predicción de deserción de cliente en empresas de telecomunicaciones.
 
 ---
 
@@ -117,13 +117,13 @@ La TD implica integrar tecnologías primarias (Big Data, IoT) y secundarias (IA,
 
 4. CEPAL. (2020). *La era digital y su impacto en América Latina*. Naciones Unidas.
 
-Deci, E. L., & Ryan, R. M. (1985). *Intrinsic Motivation and Self-Determination in Human Behavior*. Springer.
+5. Deci, E. L., & Ryan, R. M. (1985). *Intrinsic Motivation and Self-Determination in Human Behavior*. Springer.
 
-DNP. (2023). *Estrategia de transformación digital en Colombia*. Departamento Nacional de Planeación.
+6. DNP. (2023). *Estrategia de transformación digital en Colombia*. Departamento Nacional de Planeación.
 
-Gong, C., & Ribiere, V. (2021). Developing a unified definition of digital transformation. *Technovation, 102*, 102217. https://doi.org/10.1016/j.technovation.2021.102217
+7. Gong, C., & Ribiere, V. (2021). Developing a unified definition of digital transformation. *Technovation, 102*, 102217. https://doi.org/10.1016/j.technovation.2021.102217
 
-González, M., & López, J. (2020). Brecha digital y educación superior en Colombia. *Revista de Educación y Sociedad, 15*(2), 45-67.
+8. González, M., & López, J. (2020). Brecha digital y educación superior en Colombia. *Revista de Educación y Sociedad, 15*(2), 45-67.
 
 Lewin, K. (1947). Frontiers in group dynamics. *Human Relations, 1*(2), 143-153. https://doi.org/10.1177/001872674700100201
 
