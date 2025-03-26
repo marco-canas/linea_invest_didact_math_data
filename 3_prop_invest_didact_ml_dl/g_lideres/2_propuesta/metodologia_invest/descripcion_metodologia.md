@@ -26,7 +26,7 @@
   - Cuestionarios validados para evaluar conocimientos teóricos en herramientas digitales (ej.: manejo de datos, programación básica).  
   - Preguntas sobre frecuencia de uso de tecnologías y percepción de competencia.  
 - **Pruebas prácticas**:  
-  - Ejercicios simulados en Excel, Power BI o Python (nivel básico) para medir habilidades reales.  
+  - Ejercicios simulados, Power BI o Python (nivel básico) para medir habilidades reales.  
   - Evaluación de capacidades como limpieza de datos, visualización o análisis estadístico.  
 
 **Instrumentos**:  
