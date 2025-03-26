@@ -6,6 +6,14 @@
 ## DEVELOPMENT OF DIGITAL SKILLS IN BUSINESS ADMINISTRATION PROFESSIONALS: CASE STUDY G-LÍDERES, UNIVERSITY OF ANTIOQUIA, CAUCASIA
 
 ---
+### Track: Transformación Digital y Nuevas Tecnologías en la Gestión Empresarial
+
+4:20 a 6:00 PM   
+
+León Jaime Acosta Herrera, 
+Leidy Bibiana De La Ossa Villadiego and 
+Marco Julio Cañas Campillo 
+Universidad de Antioquia
 
 ## **Objetivo**
 
@@ -15,9 +23,13 @@ El objetivo de esta investigación es desarrollar habilidades digitales en los p
 
 ## **Resumen**
 
-La transformación digital (TD) ha redefinido las dinámicas empresariales y educativas a nivel global, exigiendo la adopción de tecnologías digitales para mejorar la competitividad y eficiencia organizacional. En Colombia, aunque existen avances en políticas públicas como la Estrategia de Gobierno Digital (DNP, 2023) y la iniciativa **“Aprender Digital: Contenidos para Todos”** del Ministerio de Educación Nacional (2020), que busca garantizar el acceso equitativo a recursos educativos digitales y fortalecer competencias tecnológicas en la población, persisten brechas en conectividad y formación de talento digital, especialmente en regiones periféricas. Este contexto demanda acciones educativas que preparen a los futuros administradores de empresas para liderar procesos de innovación tecnológica.
+La transformación digital (TD) ha redefinido las dinámicas empresariales y educativas a nivel global, exigiendo la adopción de tecnologías digitales para mejorar la competitividad y eficiencia organizacional.  
 
-Los estudiantes del programa G-Líderes de la Universidad de Antioquia, sede Caucasia, enfrentan problemáticas críticas: limitado acceso a recursos tecnológicos, desconexión entre la formación académica y las demandas del sector empresarial, y falta de habilidades digitales básicas. Estas barreras afectan su empleabilidad y capacidad para responder a los desafíos de la economía digital, evidenciando la necesidad de intervenciones educativas focalizadas en competencias como análisis de datos, inteligencia artificial y gestión de herramientas digitales, alineadas con los lineamientos de la estrategia nacional que promueve la inclusión digital mediante contenidos y metodologías accesibles (Ministerio de Educación Nacional, 2020).
+En Colombia, aunque existen avances en políticas públicas como la [Estrategia de Gobierno Digital (DNP, 2023)](https://www.dnp.gov.co/LaEntidad_/subdireccion-general-prospectiva-desarrollo-nacional/direccion-desarrollo-digital/Paginas/estrategia-nacional-digital-de-colombia.aspx) y la iniciativa **“Aprender Digital: Contenidos para Todos”** del Ministerio de Educación Nacional (2020), que busca garantizar el acceso equitativo a recursos educativos digitales y fortalecer competencias tecnológicas en la población, persisten brechas en conectividad y formación de talento digital, especialmente en regiones periféricas. Este contexto demanda acciones educativas que preparen a los futuros administradores de empresas para liderar procesos de innovación tecnológica.
+
+Los estudiantes del programa G-Líderes de la Universidad de Antioquia, sede Caucasia, enfrentan problemáticas críticas: limitado acceso a recursos tecnológicos, desconexión entre la formación académica y las demandas del sector empresarial, y falta de habilidades digitales básicas.   
+
+Estas barreras afectan su empleabilidad y capacidad para responder a los desafíos de la economía digital, evidenciando la necesidad de intervenciones educativas focalizadas en competencias como análisis de datos, inteligencia artificial y gestión de herramientas digitales, alineadas con los lineamientos de la estrategia nacional que promueve la inclusión digital mediante contenidos y metodologías accesibles (Ministerio de Educación Nacional, 2020).
 
 El objetivo general de esta investigación es diseñar e implementar un programa de formación en habilidades digitales para los estudiantes del programa G-Líderes, mediante talleres prácticos en Power BI, Machine Learning y Deep Learning. La propuesta busca evaluar el impacto de la intervención en el desarrollo de competencias técnicas y su aplicabilidad en contextos empresariales reales, contribuyendo así a los esfuerzos nacionales por reducir las desigualdades educativas y tecnológicas.
 
@@ -25,9 +37,13 @@ El objetivo general de esta investigación es diseñar e implementar un programa
 
 ## **Introducción**
 
-El cambio tecnológico reciente ha generado transformaciones disruptivas en organizaciones y economías. Las tecnologías digitales (TDs) ofrecen soluciones innovadoras para desafíos como empleo, producción y sostenibilidad (CEPAL, 2020). La OCDE (2022) proyecta que el 70% de la población global será urbana para 2050, lo que exige políticas públicas alineadas con dimensiones como acceso, innovación y empleo (OECD, 2019).
+El cambio tecnológico reciente ha generado transformaciones disruptivas en organizaciones y economías. Las tecnologías digitales (TDs) ofrecen soluciones innovadoras para desafíos como empleo, producción y sostenibilidad (CEPAL, 2020).   
 
-La formación en TDs es clave para la productividad y competitividad empresarial. Sin embargo, en Colombia, persisten brechas en conectividad y adopción de inteligencia artificial comparado con la OCDE (ANDI, 2022). Esto demanda estrategias educativas que preparen profesionales para liderar la transformación digital (TD), integrando herramientas como Power BI, Machine Learning y Deep Learning.
+La OCDE (2022) proyecta que el 70% de la población global será urbana para 2050, lo que exige políticas públicas alineadas con dimensiones como acceso, innovación y empleo (OECD, 2019).
+
+La formación en TDs es clave para la productividad y competitividad empresarial. Sin embargo, en Colombia, persisten brechas en conectividad y adopción de inteligencia artificial comparado con la OCDE (ANDI, 2022).   
+
+Esto demanda estrategias educativas que preparen profesionales para liderar la transformación digital (TD), integrando herramientas como Power BI, Machine Learning y Deep Learning.
 
 ---
 
@@ -55,7 +71,9 @@ Se refiere a un proceso de cambio fundamental, habilitado por el uso innovador d
 
 **2. Tecnologías Digitales (TDs)**
 
-Herramientas y sistemas basados en la informática y las telecomunicaciones que permiten la recopilación, procesamiento, almacenamiento y transmisión de datos de manera electrónica. Estas incluyen dispositivos como computadoras, teléfonos inteligentes, software, inteligencia artificial, internet de las cosas (IoT) y tecnologías de la nube, entre otras (Schwab, 2016).
+Herramientas y sistemas basados en la informática y las telecomunicaciones que permiten la recopilación, procesamiento, almacenamiento y transmisión de datos de manera electrónica.   
+
+Estas incluyen dispositivos como computadoras, teléfonos inteligentes, software, inteligencia artificial, internet de las cosas (IoT) y tecnologías de la nube, entre otras (Schwab, 2016).
 
 ---
 
@@ -65,7 +83,9 @@ Herramientas y sistemas basados en la informática y las telecomunicaciones que 
 - **Teoría del Desarrollo Organizacional** (Lewin, 1947; Beckhard, 1969): Enfatiza la gestión del cambio tecnológico en organizaciones.
 - **Teoría de la Autodeterminación** (Deci & Ryan, 1985): Analiza motivaciones intrínsecas para adoptar TDs.
 
-La TD implica integrar tecnologías primarias (Big Data, IoT) y secundarias (IA, realidad virtual) en modelos de negocio (Bharadwaj et al., 2013; Spremic, 2017). En Colombia, el marco jurídico promueve políticas como la Estrategia de Gobierno Digital (DNP, 2023), aunque persisten desafíos en conectividad (ANDI, 2022).
+La TD implica integrar tecnologías primarias (Big Data, IoT) y secundarias (IA, realidad virtual) en modelos de negocio (Bharadwaj et al., 2013; Spremic, 2017).   
+
+En Colombia, el marco jurídico promueve políticas como la Estrategia de Gobierno Digital (DNP, 2023), aunque persisten desafíos en conectividad (ANDI, 2022).
 
 ---
 
@@ -125,27 +145,30 @@ La TD implica integrar tecnologías primarias (Big Data, IoT) y secundarias (IA,
 
 8. González, M., & López, J. (2020). Brecha digital y educación superior en Colombia. *Revista de Educación y Sociedad, 15*(2), 45-67.
 
-Lewin, K. (1947). Frontiers in group dynamics. *Human Relations, 1*(2), 143-153. https://doi.org/10.1177/001872674700100201
+9. Lewin, K. (1947). Frontiers in group dynamics. *Human Relations, 1*(2), 143-153. https://doi.org/10.1177/001872674700100201
 
-Londoño, C., & Restrepo, P. (2021). Desafíos socioeconómicos de los estudiantes universitarios en el acceso a la educación digital. *Universidad y Desarrollo, 20*(1), 34-52.
+10. [Bernate y Vargas. Desafíos y tendencias del siglo XXI en la educación superior](https://www.redalyc.org/journal/280/28064146010/html/) 
 
-Martínez, R. (2022). La infraestructura tecnológica en la educación superior: Retos y perspectivas. *Tecnología y Educación, 10*(4), 67-82.
+11. [Ronald M. Hernandez. Impacto de las TIC en la educación: Retos y Perspectivas.](file:///C:/Users/marco/Downloads/Dialnet-ImpactoDeLasTICEnLaEducacion-5904762%20(1).pdf)
 
-Ministerio de Educación Nacional. (2020). Estrategia “Aprender Digital: Contenidos para Todos”. Gobierno de Colombia. https://www.mineducacion.gov.co
+12. Ministerio de Educación Nacional. (2020). Estrategia “Aprender Digital: Contenidos para Todos”. Gobierno de Colombia. https://www.mineducacion.gov.co
 
-OECD. (2019). *Going Digital: Shaping Policies, Improving Lives*. OECD Publishing. https://doi.org/10.1787/9789264312012-en
+13. OECD. (2019). *Going Digital: Shaping Policies, Improving Lives*. OECD Publishing. https://doi.org/10.1787/9789264312012-en
 
-Pérez, J., & Ramírez, S. (2021). Conectividad y acceso digital en zonas rurales de Colombia. *Revista de Políticas Públicas y Tecnología, 8*(1), 78-95.
+14. Sunkel, G., & Trucco, D. ​ (Eds.). (2012). Las tecnologías digitales frente a los desafíos de una educación inclusiva en América Latina: Algunos casos de buenas prácticas. ​ Alianza para la sociedad de la información en América Latina y el Caribe · Fase 2. ​ Comisión Económica para América Latina y el Caribe (CEPAL). ​
 
-Real Academia Española. (2023). *Diccionario de la lengua española* (23.ª ed.). https://dle.rae.es
+15. Hernandez, R.M.. (2017). Impacto de las TIC en la educación: Retos y Perspectivas.
+Propósitos y Representaciones, 5(1), 325 - 347 http://dx.doi.org/10.20511/pyr2017.v5n1.149
 
-Rodríguez, A., Sánchez, L., García, M., & Díaz, P. (2023). Formación digital y empleabilidad: Un estudio en educación superior. *Innovación y Desarrollo, 11*(2), 99-118.
+16. Pérez, J., & Ramírez, S. (2021). Conectividad y acceso digital en zonas rurales de Colombia. *Revista de Políticas Públicas y Tecnología, 8*(1), 78-95.
 
-Schultz, T. W. (1961). Investment in human capital. *The American Economic Review, 51*(1), 1-17.
 
-Schwab, K. (2016). *The Fourth Industrial Revolution*. World Economic Forum.
+17. Rodríguez, A., Sánchez, L., García, M., & Díaz, P. (2023). Formación digital y empleabilidad: Un estudio en educación superior. *Innovación y Desarrollo, 11*(2), 99-118.
 
-Spremic, M. (2017). Governing digital technology – How mature IT governance can help in digital transformation? *International Journal of Economics and Management Systems, 2*(4), 210-225.
-```
+18. Schultz, T. W. (1961). Investment in human capital. *The American Economic Review, 51*(1), 1-17.
 
-Este archivo Markdown contiene todo el contenido del archivo original en un formato legible y estructurado para su uso en plataformas que soportan Markdown.
+19. Schwab, K. (2016). *The Fourth Industrial Revolution*. World Economic Forum.
+
+20. Spremic, M. (2017). Governing digital technology – How mature IT governance can help in digital transformation? *International Journal of Economics and Management Systems, 2*(4), 210-225.
+
+
