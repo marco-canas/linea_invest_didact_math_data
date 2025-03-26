@@ -25,11 +25,16 @@ El objetivo de esta investigación es desarrollar habilidades digitales en los p
 
 La transformación digital (TD) ha redefinido las dinámicas empresariales y educativas a nivel global, exigiendo la adopción de tecnologías digitales para mejorar la competitividad y eficiencia organizacional.  
 
-En Colombia, aunque existen avances en políticas públicas como la [Estrategia de Gobierno Digital (DNP, 2023)](https://www.dnp.gov.co/LaEntidad_/subdireccion-general-prospectiva-desarrollo-nacional/direccion-desarrollo-digital/Paginas/estrategia-nacional-digital-de-colombia.aspx) y la iniciativa **“Aprender Digital: Contenidos para Todos”** del Ministerio de Educación Nacional (2020), que busca garantizar el acceso equitativo a recursos educativos digitales y fortalecer competencias tecnológicas en la población, persisten brechas en conectividad y formación de talento digital, especialmente en regiones periféricas. Este contexto demanda acciones educativas que preparen a los futuros administradores de empresas para liderar procesos de innovación tecnológica.
+En Colombia, aunque existen avances en políticas públicas como la [Estrategia de Gobierno Digital (DNP, 2023)](https://www.dnp.gov.co/LaEntidad_/subdireccion-general-prospectiva-desarrollo-nacional/direccion-desarrollo-digital/Paginas/estrategia-nacional-digital-de-colombia.aspx) y la iniciativa [**“Aprender Digital: Contenidos para Todos”**](https://www.mineducacion.gov.co/portal/salaprensa/Noticias/394002:Estrategia-Aprender-Digital-Contenidos-para-Todos-reune-contenidos-digitales-educativos-en-una-misma-plataforma-para-los-niveles-escolares-en-todas-las-areas-del-conocimiento) del Ministerio de Educación Nacional (2020), que busca garantizar el acceso equitativo a recursos educativos digitales y fortalecer competencias tecnológicas en la población, persisten brechas en conectividad y formación de talento digital, especialmente en regiones periféricas.   
 
-Los estudiantes del programa G-Líderes de la Universidad de Antioquia, sede Caucasia, enfrentan problemáticas críticas: limitado acceso a recursos tecnológicos, desconexión entre la formación académica y las demandas del sector empresarial, y falta de habilidades digitales básicas.   
+Este contexto demanda acciones educativas que preparen a los futuros administradores de empresas para liderar procesos de innovación tecnológica.
 
-Estas barreras afectan su empleabilidad y capacidad para responder a los desafíos de la economía digital, evidenciando la necesidad de intervenciones educativas focalizadas en competencias como análisis de datos, inteligencia artificial y gestión de herramientas digitales, alineadas con los lineamientos de la estrategia nacional que promueve la inclusión digital mediante contenidos y metodologías accesibles (Ministerio de Educación Nacional, 2020).
+Los estudiantes del programa G-Líderes de la Universidad de Antioquia, sede Caucasia, enfrentan problemáticas críticas:   
+* limitado acceso a recursos tecnológicos, 
+* desconexión entre la formación académica y las demandas del sector empresarial, y
+* falta de habilidades digitales básicas.   
+
+Estas barreras afectan su empleabilidad y capacidad para responder a los desafíos de la economía digital, evidenciando la necesidad de intervenciones educativas focalizadas en competencias como análisis de datos, inteligencia artificial y gestión de herramientas digitales, alineadas con los [lineamientos de la estrategia nacional digital](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mintic.gov.co/portal/715/articles-334120_recurso_1.pdf) que promueve la inclusión digital mediante contenidos y metodologías accesibles (Ministerio de Educación Nacional, 2020).
 
 El objetivo general de esta investigación es diseñar e implementar un programa de formación en habilidades digitales para los estudiantes del programa G-Líderes, mediante talleres prácticos en Power BI, Machine Learning y Deep Learning. La propuesta busca evaluar el impacto de la intervención en el desarrollo de competencias técnicas y su aplicabilidad en contextos empresariales reales, contribuyendo así a los esfuerzos nacionales por reducir las desigualdades educativas y tecnológicas.
 
@@ -108,7 +113,8 @@ En Colombia, el marco jurídico promueve políticas como la Estrategia de Gobier
 
 ## **Avances Preliminares**
 
-- Taller 1 de lenguaje python y de obtención y visualización tabular de datos con cuadernos Jupyter Editados con Google Colab con el dataset Housing utilizado para constitución de modelos de machine learnig para la predicción de precios de viviendas.
+- Taller 1 de lenguaje python y de obtención y visualización tabular de datos con cuadernos Jupyter Editados con Google Colab con el dataset Housing utilizado para constitución de modelos de machine learnig para la predicción de precios de viviendas.  
+  
 - Taller 2: Obtención y visualización tabular y gráfica de datos usados para constituir un modelo de machine learning para predicción de deserción de cliente en empresas de telecomunicaciones.
 
 ---

@@ -1,4 +1,45 @@
 
+# **Teoría del Capital Humano**   
+
+(Becker, 1964; Schultz, 1961): Vincula la inversión en habilidades digitales con productividad laboral.
+
+### **La Teoría del Capital Humano en el Contexto de la Investigación Propuesta**  
+**(Becker, 1964; Schultz, 1961)**  
+
+La **Teoría del Capital Humano** (TCH) postula que las habilidades, conocimientos y competencias de los individuos son formas de "capital" que, al ser desarrolladas mediante educación y formación, generan retornos económicos tanto para los individuos (mayor empleabilidad y salarios) como para las organizaciones y la sociedad (aumento de productividad e innovación). En el marco de la investigación sobre el desarrollo de habilidades digitales en los estudiantes de Administración de Empresas del programa **G-Líderes (UdeA Caucasia)**, esta teoría ofrece un sustento clave para justificar la inversión en formación tecnológica como estrategia para reducir brechas y mejorar la competitividad regional.  
+
+#### **Alineación con la Propuesta Investigativa**  
+1. **Inversión en habilidades digitales = Mayor productividad laboral**  
+   - Becker (1964) enfatiza que la educación es una inversión con retornos a largo plazo. La intervención propuesta (talleres en *Power BI, Machine Learning y Deep Learning*) busca equipar a los estudiantes con competencias demandadas en el mercado laboral digital, lo que incrementará su capacidad para generar valor en entornos empresariales.  
+   - *Ejemplo*: Un administrador con habilidades en análisis de datos (Power BI) puede optimizar decisiones operativas, alineándose con las necesidades de empresas en transformación digital (DNP, 2023).  
+
+2. **Reducción de brechas y equidad educativa**  
+   - Schultz (1961) destaca que la inversión en capital humano es crucial para el desarrollo económico, especialmente en regiones con desigualdades. La investigación aborda la **desconexión entre la formación académica y las demandas del sector empresarial** en Caucasia, una zona periférica con limitado acceso a recursos tecnológicos (Pérez & Ramírez, 2021).  
+   - *Vinculación con políticas públicas*: La estrategia *"Aprender Digital"* (MEN, 2020) y la *Estrategia Nacional Digital* (MINTIC, 2023) respaldan esta visión al promover la inclusión tecnológica.  
+
+3. **Motivación y autodeterminación**  
+   - Aunque la TCH se centra en aspectos económicos, la **Teoría de la Autodeterminación** (Deci & Ryan, 1985) complementa el marco al analizar cómo la motivación intrínseca facilita la adopción de tecnologías. Los talleres prácticos buscan fomentar la autonomía y la competencia percibida en los estudiantes, factores críticos para la retención de habilidades digitales.  
+
+#### **Críticas y Adaptaciones**  
+La TCH ha sido cuestionada por su enfoque economicista, ignorando barreras estructurales (ej.: acceso a internet en zonas rurales). Sin embargo, esta investigación integra dichas críticas al:  
+- Diagnosticar limitaciones infraestructurales (*brecha digital*).  
+- Proponer talleres con herramientas accesibles (ej.: Google Colab, datasets abiertos).  
+
+#### **Conclusión**  
+La TCH proporciona un marco sólido para justificar la intervención educativa, vinculando directamente la adquisición de habilidades digitales con:  
+- **Mejora en la empleabilidad** de los estudiantes.  
+- **Contribución al desarrollo regional** (Caucasia) mediante profesionales preparados para la TD.  
+- **Alianza con políticas nacionales** que priorizan el capital humano digital (ANDI, 2022; DNP, 2023).  
+
+**Referencia clave**:  
+- Becker, G. S. (1964). *Human Capital*. University of Chicago Press.  
+- Schultz, T. W. (1961). "Investment in Human Capital". *American Economic Review*.  
+
+---  
+Este enfoque teórico refuerza la **originalidad** de la investigación al conectar la formación en habilidades digitales con necesidades locales, utilizando marcos globales pero adaptados a un contexto específico (rural/empresarial).
+
+
+
 
 # **Teoría del Desarrollo Organizacional (DO)**   
 
