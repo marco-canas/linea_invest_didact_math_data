@@ -25,11 +25,16 @@ El objetivo de esta investigación es desarrollar habilidades digitales en los p
 
 La transformación digital (TD) ha redefinido las dinámicas empresariales y educativas a nivel global, exigiendo la adopción de tecnologías digitales para mejorar la competitividad y eficiencia organizacional.  
 
-En Colombia, aunque existen avances en políticas públicas como la [Estrategia de Gobierno Digital (DNP, 2023)](https://www.dnp.gov.co/LaEntidad_/subdireccion-general-prospectiva-desarrollo-nacional/direccion-desarrollo-digital/Paginas/estrategia-nacional-digital-de-colombia.aspx) y la iniciativa [**“Aprender Digital: Contenidos para Todos”**](https://www.mineducacion.gov.co/portal/salaprensa/Noticias/394002:Estrategia-Aprender-Digital-Contenidos-para-Todos-reune-contenidos-digitales-educativos-en-una-misma-plataforma-para-los-niveles-escolares-en-todas-las-areas-del-conocimiento) del Ministerio de Educación Nacional (2020), que busca garantizar el acceso equitativo a recursos educativos digitales y fortalecer competencias tecnológicas en la población, persisten brechas en conectividad y formación de talento digital, especialmente en regiones periféricas.   
+En Colombia, aunque existen avances en políticas públicas como: 
+
+* la [Estrategia de Gobierno Digital (DNP, 2023)](https://www.dnp.gov.co/LaEntidad_/subdireccion-general-prospectiva-desarrollo-nacional/direccion-desarrollo-digital/Paginas/estrategia-nacional-digital-de-colombia.aspx) y   
+  
+* la iniciativa [**“Aprender Digital: Contenidos para Todos”**](https://www.mineducacion.gov.co/portal/salaprensa/Noticias/394002:Estrategia-Aprender-Digital-Contenidos-para-Todos-reune-contenidos-digitales-educativos-en-una-misma-plataforma-para-los-niveles-escolares-en-todas-las-areas-del-conocimiento) del Ministerio de Educación Nacional (2020), que busca garantizar el acceso equitativo a recursos educativos digitales y fortalecer competencias tecnológicas en la población, persisten brechas en conectividad y formación de talento digital, especialmente en regiones periféricas.   
 
 Este contexto demanda acciones educativas que preparen a los futuros administradores de empresas para liderar procesos de innovación tecnológica.
 
-Los estudiantes del programa G-Líderes de la Universidad de Antioquia, sede Caucasia, enfrentan problemáticas críticas:   
+Los estudiantes del programa G-Líderes de la Universidad de Antioquia, sede Caucasia, enfrentan problemáticas críticas:  
+
 * limitado acceso a recursos tecnológicos, 
 * desconexión entre la formación académica y las demandas del sector empresarial, y
 * falta de habilidades digitales básicas.   
@@ -98,7 +103,7 @@ En Colombia, el marco jurídico promueve políticas como la Estrategia de Gobier
 
 **Diseño**: Mixto (cuasi-experimental y cualitativo) con medición pre-post intervención.
 
-**Población**: Estudiantes activos del programa G-Líderes (15 estudiantes).
+**Población**: Estudiantes activos del programa G-Líderes (12 estudiantes).
 
 **Fases**:
 

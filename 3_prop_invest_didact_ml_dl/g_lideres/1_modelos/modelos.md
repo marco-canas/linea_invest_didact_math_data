@@ -8,7 +8,8 @@
 
 La **Teoría del Capital Humano** (TCH) postula que las habilidades, conocimientos y competencias de los individuos son formas de "capital" que, al ser desarrolladas mediante educación y formación, generan retornos económicos tanto para los individuos (mayor empleabilidad y salarios) como para las organizaciones y la sociedad (aumento de productividad e innovación). En el marco de la investigación sobre el desarrollo de habilidades digitales en los estudiantes de Administración de Empresas del programa **G-Líderes (UdeA Caucasia)**, esta teoría ofrece un sustento clave para justificar la inversión en formación tecnológica como estrategia para reducir brechas y mejorar la competitividad regional.  
 
-#### **Alineación con la Propuesta Investigativa**  
+#### **Alineación con la Propuesta Investigativa**    
+
 1. **Inversión en habilidades digitales = Mayor productividad laboral**  
    - Becker (1964) enfatiza que la educación es una inversión con retornos a largo plazo. La intervención propuesta (talleres en *Power BI, Machine Learning y Deep Learning*) busca equipar a los estudiantes con competencias demandadas en el mercado laboral digital, lo que incrementará su capacidad para generar valor en entornos empresariales.  
    - *Ejemplo*: Un administrador con habilidades en análisis de datos (Power BI) puede optimizar decisiones operativas, alineándose con las necesidades de empresas en transformación digital (DNP, 2023).  
@@ -23,20 +24,23 @@ La **Teoría del Capital Humano** (TCH) postula que las habilidades, conocimient
 #### **Críticas y Adaptaciones**  
 La TCH ha sido cuestionada por su enfoque economicista, ignorando barreras estructurales (ej.: acceso a internet en zonas rurales). Sin embargo, esta investigación integra dichas críticas al:  
 - Diagnosticar limitaciones infraestructurales (*brecha digital*).  
-- Proponer talleres con herramientas accesibles (ej.: Google Colab, datasets abiertos).  
+- Proponer talleres con herramientas accesibles (ej.: Google Colab, datasets abiertos de Kaggle).  
 
 #### **Conclusión**  
 La TCH proporciona un marco sólido para justificar la intervención educativa, vinculando directamente la adquisición de habilidades digitales con:  
 - **Mejora en la empleabilidad** de los estudiantes.  
-- **Contribución al desarrollo regional** (Caucasia) mediante profesionales preparados para la TD.  
+- **Contribución al desarrollo regional** (Caucasia) mediante profesionales preparados para la Transformación Digital (TD).  
 - **Alianza con políticas nacionales** que priorizan el capital humano digital (ANDI, 2022; DNP, 2023).  
 
 **Referencia clave**:  
 - Becker, G. S. (1964). *Human Capital*. University of Chicago Press.  
-- Schultz, T. W. (1961). "Investment in Human Capital". *American Economic Review*.  
+- Schultz, T. W. (1961). "Investment in Human Capital". *American Economic Review*. 
 
----  
-Este enfoque teórico refuerza la **originalidad** de la investigación al conectar la formación en habilidades digitales con necesidades locales, utilizando marcos globales pero adaptados a un contexto específico (rural/empresarial).
+
+---   
+
+
+Este enfoque teórico refuerza la **originalidad** de la investigación al conectar la formación en habilidades digitales con necesidades locales, utilizando marcos globales pero adaptados a un contexto específico 
 
 
 
