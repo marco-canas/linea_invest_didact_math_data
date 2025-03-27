@@ -13,11 +13,8 @@ de Trastorno de Ansiedad Generalizada (TAG) y de Fobia Social.
 
 ---
 
-Entiendo que estás enfrentando un desafío doble: tu condición de salud mental   
-(TAG y fobia social) y las dinámicas complejas en tu equipo de investigación.   
-Como psicólogo especializado en TCC, te propongo un **plan de acción estructurado**   
-para trabajar estas emociones y mejorar tus relaciones, integrando estrategias   
-basadas en evidencia y adaptadas a tu contexto. Vamos paso a paso:
+
+Entiendo que estás enfrentando un desafío doble: tu condición de salud mental (TAG y fobia social) y las dinámicas complejas en tu equipo de investigación. Como psicólogo especializado en TCC, te propongo un **plan de acción estructurado** para trabajar estas emociones y mejorar tus relaciones, integrando estrategias basadas en evidencia y adaptadas a tu contexto. Vamos paso a paso:
 
 ---
 
@@ -60,28 +57,23 @@ basadas en evidencia y adaptadas a tu contexto. Vamos paso a paso:
 1. **Jerarquía de exposiciones** (Del menos al más ansioso):  
    - Nivel 1: Enviar un mensaje de texto al grupo elogiando un aporte.  
    - Nivel 3: Hacer una pregunta breve en reunión virtual.  
-   - Nivel 5: Expresar desacuerdo en una idea usando la técnica *"sandwich"*   
-   (Ej: *"Valoro tu propuesta, pero sugiero ajustar X porque... ¿Qué opinan?"*).  
+   - Nivel 5: Expresar desacuerdo en una idea usando la técnica *"sandwich"* (Ej: *"Valoro tu propuesta, pero sugiero ajustar X porque... ¿Qué opinan?"*).  
 
 2. **Técnica del "disco rayado"** para fobia social:  
    - Practica frases predefinidas:  
-     *"Necesito un momento para organizar mis ideas. ¿Podemos volver a este punto   
-     en 5 minutos?"*  
+     *"Necesito un momento para organizar mis ideas. ¿Podemos volver a este punto en 5 minutos?"*  
 
 #### **Recurso**:  
-> Usa la **Escala Subjetiva de Malestar (SUDS)** para medir tu ansiedad   
-antes/después de cada interacción. Anota progresos.  
+> Usa la **Escala Subjetiva de Malestar (SUDS)** para medir tu ansiedad antes/después de cada interacción. Anota progresos.  
 
 ---
 
 ### **4. **Manejo de la Envidia desde la Psicología Adleriana**  
-**Concepto clave**: La envidia surge de una *sensación de inferioridad*,   
-no de maldad.  
+**Concepto clave**: La envidia surge de una *sensación de inferioridad*, no de maldad.  
 
 **Ejercicios**:  
 - **Reencuadre colaborativo**:  
-  - Piensa: *"Si mi colega destaca, nuestro proyecto tendrá más impacto.   
-  Eso me beneficia"*.  
+  - Piensa: *"Si mi colega destaca, nuestro proyecto tendrá más impacto. Eso me beneficia"*.  
 - **Lista de fortalezas propias**:  
   - Escribe 3 habilidades únicas que aportas (ej: análisis de datos, gestión de cronogramas).  
 
