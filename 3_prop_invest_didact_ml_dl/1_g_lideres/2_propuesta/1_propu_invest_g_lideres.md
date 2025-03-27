@@ -113,6 +113,10 @@ En Colombia, el marco jurídico promueve políticas como la Estrategia de Gobier
 4. **Análisis**:
    - *Cuantitativo*: Estadística descriptiva, pruebas t-student y ANOVA (Lo realizaremos con Librería de Python).
    - *Cualitativo*: Codificación temática con apoyo de software especializado asociado a Python.
+5. **Análisis bibliométrico:** **Pregunta de investigación**:  
+  *¿Cómo se relaciona el desarrollo de habilidades digitales en la educación superior con la empleabilidad de los egresados?*  
+
+
 
 ---
 
