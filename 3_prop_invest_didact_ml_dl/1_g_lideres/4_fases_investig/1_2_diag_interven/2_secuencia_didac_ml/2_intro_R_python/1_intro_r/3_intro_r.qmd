@@ -1,0 +1,203 @@
+
+Dame, por favor, un diseño de clase, con el enfoque: "Aula Invertida, STEAMS y de Aprendizaje Basado en Problemas y Proyectos(ABPP)" sobre: **"Introducción al lenguaje de programación R para desarrollo de habilidades digitales en los profesionales de Administración de Empresas: CASO G-LÍDERES UDEA CAUCASIA"**, siguiendo la estructura:  
+
+1. Título de la clase 
+2. Objetivos de aprendizaje que incluyan los indicadores del logro de estos objetivos.  
+   
+3. Un mapa conceptual que resuma la clase elaborado en una librería apropiada de R  con nodos y edges de diferentes formas, colores y rellenos y renderizado en la siguiente ubicación:  
+    `"C:/Users/marco/Downloads"`. 
+   
+4. Dame elementos históricos y epistemológicos asociados a esta clase, pero contados como un cuento al estilo de un cuentero antioqueño en Colombia. Incluye imágenes de los protagonistas históricos de esta clase. 
+5. Contenido de la clase. Que el contenido parta de una situación real que sea modelable con Machile Learning como tarea de regresión para llegar a una constitución del modelo matemático que represente tal situación real. 
+6. Actividades de aprendizaje. Que incluyan la resolución de problemas y la realización de proyectos.  
+   
+7. Incluye una canción o un poema que ayude a interiorizar y fijar los conceptos asociados a esta clase. 
+   
+8. Tarea o actividades de ejercitación y fijación  
+   
+9.  Evaluación incluyendo diez proyectos, un ejemplo de quiz (de tres preguntas) y un ejemplo de parcial (de cinco puntos)  
+    
+10. Diseño de actividad de retroalimentación.   
+    
+11. Dame un vocabulario y frases del idioma inglés asociadas a esta clase.  
+    
+12. Incluye apéndice para la clase sobre desarrollo de habilidades para trabajar en equipo y de asertividad y empatía para relacionarnos. También elementos de la inteligencia emocional para presentar pruebas sin temor y sin realizar fraude en ellas.   
+       
+13. Incluye 10 referentes en didáctica de la matemática que estén de acuerdo a la propuesta didáctica de esta clase. Adiciona a estos referentes a Raymond Duval (Representaciones y cambios de representación para la adquisición de conceptos matemáticos) y a Jeannette Wing (Desarrollo del pensamiento computacional). Déjame todos estos referentes ordenados de acuerdo a las normas APA. Incluye un referente en didáctica de la matemática que fundamente el uso del Enfoque de Aula Invertida, uno que fundamente el enfoque STEAMS y finalmente otro que fundamente el enfoque de Aprendizaje Basado en Problemas y Proyectos (ABPP). Agregale al menos un texto recomendado sobre introducción a R para Machine Learning.
+
+Pero  que este diseño sea para que el estudiante pueda aprender experimentando en cuadernos Jupyter cuyo kernel sea configurado en lenguaje R con funciones de usuario y animaciones y visualizaciones en R.   
+No olvides darme los diseños de clase con las ecuaciones matemáticas delimitadas con signo de dólar $ para que VS Code si me renderice estas expresiones del lenguaje latex.   
+
+
+Ahora, dame, por favor, el anterior diseño de clase, pero en formato para archivo .qmd
+
+Aquí tienes el diseño de clase en formato **.qmd** (Quarto Markdown), listo para ser renderizado en Jupyter Notebooks con kernel R o directamente en RStudio:
+
+```yaml
+---
+title: "G-Líderes UdeA Caucasia: Programando soluciones empresariales con R"
+subtitle: "Aula Invertida + STEAMS + ABPP"
+author: "Profesor Marco Julio Cañas"
+format:
+  html:
+    toc: true
+    code-tools: true
+    code-fold: true
+jupyter: r-kernel
+---
+
+# Objetivos de aprendizaje
+
+```{r objetivos, echo=FALSE}
+objetivos <- data.frame(
+  Objetivo = c(
+    "Aplicar conceptos básicos de R para análisis de datos empresariales",
+    "Diseñar modelos matemáticos sencillos para problemas administrativos",
+    "Trabajar colaborativamente en proyectos STEAMS"
+  ),
+  Indicador = c(
+    "Crea un script en R que importa y visualiza datos de Excel",
+    "Propone una ecuación lineal que represente costos vs. producción usando lm()",
+    "Entrega un Jupyter Notebook con animaciones interactivas en R"
+  )
+)
+
+knitr::kable(objetivos, caption = "Objetivos e indicadores de logro")
+```
+
+# Mapa conceptual
+
+```{r mapa-conceptual, echo=FALSE, out.width="80%", fig.align='center'}
+library(DiagrammeR)
+
+grViz("
+digraph aula {
+  graph [layout = dot, rankdir = LR]
+  
+  node [shape = rectangle, style = filled]
+    A [label = 'Lenguaje R', fillcolor = '#F4D03F']
+    B [label = 'Habilidades Digitales', fillcolor = '#AED6F1']
+    C [label = 'ABPP', fillcolor = '#A569BD']
+  
+  node [shape = ellipse, fillcolor = '#ABEBC6']
+    D [label = 'G-Líderes']
+    E [label = 'STEAMS']
+  
+  edge [color = 'gray50', arrowhead = normal]
+    A -> B -> D
+    C -> E -> A
+}
+")
+```
+
+# Historia epistemológica {.story}
+
+**El tío John y los números que hablan**  
+
+*"¡Ave María pués!* Les cuento que en los años 70, un tal [John Tukey](https://upload.wikimedia.org/wikipedia/commons/2/2f/John_Tukey.jpg) se puso a jugar con números como quien juega a las tablas... ¡Y de ahí salió eso del *'Exploratory Data Analysis'*!  
+
+```{r imagen-tukey, echo=FALSE, out.width="30%", fig.cap="John Tukey (1915-2000)"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/2/2f/John_Tukey.jpg")
+```
+
+# Contenido de la clase
+
+## Situación real
+
+Los G-Líderes necesitan analizar ventas mensuales en Caucasia:
+
+```{r datos-ventas}
+ventas <- data.frame(
+  Mes = c("Ene", "Feb", "Mar", "Abr"),
+  Valor = c(150, 200, 175, 300)
+)
+```
+
+## Modelo matemático
+
+La proyección de ventas sigue:
+
+$$
+\hat{y} = \beta_0 + \beta_1 x
+$$
+
+```{r modelo-ventas}
+modelo <- lm(Valor ~ as.numeric(Mes), data = ventas)
+summary(modelo)
+```
+
+# Actividades {.tabset}
+
+## Aula invertida
+- Ver video [Introducción a R para negocios](https://youtu.be/ejrS7B1uI5Y)
+
+## STEAMS
+```{r animacion, eval=FALSE}
+library(gganimate)
+ggplot(ventas, aes(Mes, Valor)) +
+  geom_col() +
+  transition_states(Mes)
+```
+
+## ABPP
+*Problema:*  
+"Optimizar rutas de reparto usando el paquete `TSP` en R"
+
+# Evaluación
+
+## Proyectos
+1. Dashboard con `shiny`
+2. Modelo predictivo de inventario
+
+## Quiz
+1. La función para modelos lineales es `lm()`?  
+   `r knitr::asis_output("\U2713")` Verdadero
+
+## Parcial
+- *"Explique cómo aplicar ABPP en análisis financiero con R"*
+
+# Vocabulario inglés
+
+```{r vocabulario}
+glosario <- data.frame(
+  Término = c("Data wrangling", "Pipe operator", "Hypothesis testing"),
+  Significado = c("Manipulación de datos", "%>%", "Prueba de hipótesis")
+)
+knitr::kable(glosario)
+```
+
+# Apéndice
+
+## Inteligencia emocional
+```{r encuesta-stress}
+# Escala Likert para medir estrés
+encuesta <- data.frame(
+  Pregunta = c("¿Siente ansiedad ante las pruebas?"),
+  Escala = c("1 (Nada) - 5 (Mucho)")
+)
+```
+
+# Referencias
+
+1. Duval, R. (2006). *Un tema crucial en educación matemática*  
+2. Wing, J. (2006). *Computational Thinking*  
+3. Bergmann, J. (2012). *Flip Your Classroom*
+```
+
+---
+
+**Cómo usar este archivo:**
+1. Guardar como `clase_g_lideres.qmd`
+2. Renderizar con:  
+   ```r
+   quarto::quarto_render("clase_g_lideres.qmd")
+   ```
+3. Para Jupyter:  
+   - Configurar kernel R  
+   - Abrir con: `jupyter notebook clase_g_lideres.qmd`
+
+**Características especiales:**
+- Secciones plegables (`{.tabset}`)
+- Fórmulas LaTeX entre `$$`
+- Compatibilidad con HTML/PDF
+- Integración directa con R y Python (si se añaden chunks)
