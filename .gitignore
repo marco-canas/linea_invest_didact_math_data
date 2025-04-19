@@ -17,5 +17,7 @@ __pycache__/
 # Datos grandes
 *.csv
 *.shp
+*.pkl
+*.h5
 referentes_bibliograficos/
 referentes_bibliograficos/MetodologiaInvestigacionNaupas.pdf/
