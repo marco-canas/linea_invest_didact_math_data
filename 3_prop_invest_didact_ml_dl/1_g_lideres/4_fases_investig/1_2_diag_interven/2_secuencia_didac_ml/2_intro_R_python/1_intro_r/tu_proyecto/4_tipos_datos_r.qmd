@@ -23,6 +23,10 @@ engine: knitr
 knitr::include_graphics("https://www.r-project.org/logo/Rlogo.png")
 ```
 
+<center>
+<img src="https://www.r-project.org/logo/Rlogo.png" width="60%">
+</center>
+
 ## 1. Datos Atómicos (Vectores Básicos)
 
 Los vectores atómicos son la estructura más básica en R. Existen 6 tipos:
