@@ -1,0 +1,271 @@
+# Tipos de datos en lenguaje R 
+
+Archivo `.qmd` completo que explica los tipos de datos en R, con ejemplos ejecutables, visualizaciones y formato para renderizado:
+
+```qmd
+---
+title: "Guía Completa de Tipos de Datos en R"
+format: 
+  html:
+    toc: true
+    code-fold: true
+    code-tools: true
+jupyter: r
+engine: knitr
+---
+
+# Tipos de Datos Fundamentales en R
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| out.width: "60%"
+knitr::include_graphics("https://www.r-project.org/logo/Rlogo.png")
+```
+
+## 1. Datos Atómicos (Vectores Básicos)
+
+Los vectores atómicos son la estructura más básica en R. Existen 6 tipos:
+
+```{r}
+#| echo: true
+#| eval: true
+# Creación de vectores atómicos
+vector_logico <- c(TRUE, FALSE, TRUE)
+vector_numerico <- c(1, 3.14, -5.6)
+vector_entero <- c(1L, 5L, -3L)  # La 'L' indica integer
+vector_caracter <- c("Hola", "Mundo", "R")
+vector_complejo <- c(1+2i, 3-4i)
+vector_raw <- charToRaw("R")  # Bytes en hexadecimal
+
+# Verificación de tipos
+sapply(list(vector_logico, vector_numerico, vector_entero, 
+            vector_caracter, vector_complejo, vector_raw), typeof)
+```
+
+```{r}
+v = c(TRUE)
+print(v)
+```
+
+### Tabla Comparativa
+
+```{r}
+#| echo: false
+tipos_datos <- data.frame(
+  Tipo = c("logical", "numeric", "integer", "character", "complex", "raw"),
+  Descripción = c("Valores TRUE/FALSE", "Números reales", "Números enteros", 
+                 "Texto/cadenas", "Números complejos", "Bytes en hex"),
+  Ejemplo = c("TRUE", "3.14", "5L", "'Hola'", "1+2i", "charToRaw('A')"),
+  stringsAsFactors = FALSE
+)
+
+knitr::kable(tipos_datos, caption = "Tipos de Vectores Atómicos en R")
+```
+
+## 2. Estructuras de Datos Compuestas
+
+### 2.1 Matrices
+```{r}
+# Creación de matriz
+matriz_numeros <- matrix(1:9, nrow = 3, ncol = 3)
+matriz_numeros
+```
+
+### 2.2 Data Frames
+```{r}
+# Dataframe de ejemplo
+df_viviendas <- data.frame(
+  id = 1:3,
+  precio = c(350, 280, 420),  # en millones
+  area = c(75, 60, 90),       # m²
+  habitaciones = c(3, 2, 4),
+  stringsAsFactors = FALSE
+)
+
+knitr::kable(df_viviendas, caption = "Ejemplo de Data Frame")
+```
+
+### 2.3 Listas
+```{r}
+# Lista heterogénea
+lista_mezclada <- list(
+  vector = 1:5,
+  matriz = matrix(letters[1:6], nrow = 2),
+  dataframe = df_viviendas,
+  funcion = mean
+)
+
+str(lista_mezclada, max.level = 1)
+```
+
+## 3. Datos Especiales
+
+### 3.1 Factores
+```{r}
+# Factor para variables categóricas
+niveles_estrato <- factor(c(2, 3, 6, 3, 2),
+                          levels = 1:6,
+                          labels = c("Bajo", "Medio-Bajo", "Medio", 
+                                    "Medio-Alto", "Alto", "Lujo"))
+
+table(niveles_estrato)
+```
+
+### 3.2 Fechas y Tiempos
+```{r}
+# Manejo de fechas
+fechas <- as.Date(c("2023-01-15", "2023-03-22"))
+dif_fechas <- fechas[2] - fechas[1]
+dif_fechas
+```
+
+## 4. Verificación de Tipos
+
+```{r}
+#| echo: false
+#| out.width: "80%"
+# Diagrama de verificación
+library(DiagrammeR)
+grViz("
+digraph checks {
+  graph [layout = dot, rankdir = LR]
+  
+  node [shape = diamond, style = filled, fillcolor = '#F5B7B1']
+  Q1 [label = '¿Es numérico?']
+  Q2 [label = '¿Es entero?']
+  Q3 [label = '¿Es caracter?']
+  
+  node [shape = rectangle, fillcolor = '#ABEBC6']
+  R1 [label = 'numeric/double']
+  R2 [label = 'integer']
+  R3 [label = 'character']
+  R4 [label = 'Otro tipo']
+  
+  Q1 -> R1 [label = ' Sí']
+  Q1 -> Q2 [label = ' No']
+  Q2 -> R2 [label = ' Sí']
+  Q2 -> Q3 [label = ' No']
+  Q3 -> R3 [label = ' Sí']
+  Q3 -> R4 [label = ' No']
+}
+", engine = "dot")
+```
+
+## 5. Conversión entre Tipos (Coerción)
+
+```{r}
+# Jerarquía de coerción: character > complex > numeric > integer > logical
+
+# Ejemplo práctico
+mezcla <- c(TRUE, 3.14, "Texto")
+typeof(mezcla)  # Todos convertidos a character
+
+# Coerción explícita
+numeros <- c("1.5", "3", "4.2")
+as.numeric(numeros)
+```
+
+## 6. Ejercicio Práctico: Análisis de Tipos
+
+```{r}
+#| eval: false
+#| echo: true
+# Ejercicio para estudiantes:
+# 1. Crear un vector con mezcla de tipos
+# 2. Predecir el tipo resultante
+# 3. Verificar con typeof()
+# 4. Convertir al tipo más adecuado
+
+mi_vector <- c(TRUE, "FALSE", 5, 3.14)
+# ¿Qué tipo tendrá mi_vector?
+```
+
+## 7. Visualización de Tipos en un Proyecto Real
+
+```{r}
+#| fig-height: 5
+#| fig-width: 8
+library(ggplot2)
+
+# Datos de ejemplo (precios de vivienda)
+set.seed(123)
+datos <- data.frame(
+  precio = rnorm(100, mean = 350, sd = 50),
+  area = runif(100, min = 40, max = 120),
+  estrato = sample(1:6, 100, replace = TRUE)
+)
+
+# Convertir estrato a factor
+datos$estrato <- factor(datos$estrato)
+
+# Gráfico de dispersión con tipos mixtos
+ggplot(datos, aes(x = area, y = precio, color = estrato)) +
+  geom_point(size = 3) +
+  labs(title = "Precio vs Área por Estrato (Estrato como Factor)",
+       x = "Área (m²)", y = "Precio (millones)") +
+  theme_minimal()
+```
+
+## 8. Cheatsheet de Funciones para Tipos
+
+```{r}
+#| echo: false
+funciones_tipos <- data.frame(
+  Función = c("typeof()", "class()", "is.numeric()", "as.character()", 
+              "is.data.frame()", "is.list()", "as.Date()", "levels()"),
+  Propósito = c("Tipo interno", "Clase objeto", "Verifica númerico", 
+                "Convierte a texto", "Verifica dataframe", "Verifica lista",
+                "Convierte a fecha", "Niveles de factor"),
+  Ejemplo = c("typeof(1:5)", "class(matrix())", "is.numeric('a')", 
+              "as.character(3.14)", "is.data.frame(mtcars)", 
+              "is.list(list(1))", "as.Date('2023-01-01')", "levels(factor_var)")
+)
+
+knitr::kable(funciones_tipos, caption = "Funciones Esenciales para Manejo de Tipos")
+```
+
+> **Tip Pro:** Usa `str(object)` para obtener un resumen completo de la estructura y tipos de cualquier objeto en R.
+
+## 9. Quiz de Tipos de Datos
+
+**1.** ¿Qué devuelve `typeof(c(1L, 2L, 3L))`?  
+a) "double"  
+b) "integer"  
+c) "numeric"  
+
+**2.** Para convertir un vector a fecha usamos:  
+a) `as.date()`  
+b) `as.Date()`  
+c) `to_date()`  
+
+**3.** La función para ver los niveles de un factor es:  
+a) `levels()`  
+b) `factors()`  
+c) `categories()`  
+
+*(Respuestas: 1-b, 2-b, 3-a)*
+```
+
+## Cómo usar este archivo:
+
+1. Guardar como `tipos_datos_r.qmd`
+2. Renderizar con:
+   ```r
+   quarto::quarto_render("tipos_datos_r.qmd")
+   ```
+3. Alternativamente, abrir en RStudio y hacer clic en "Render"
+
+El documento incluye:
+- Explicaciones teóricas
+- Ejemplos ejecutables
+- Visualizaciones
+- Ejercicio práctico
+- Cheatsheet de funciones
+- Autoevaluación
+
+¿Te gustaría que añada alguna sección adicional sobre tipos de datos avanzados (como tibbles, data.table o clases S3/S4)?
+
+# Referentes
+-[1] Cómo isntalar R y RStudio: <https://www.r-project.org/> y <https://www.rstudio
+-[2] Cómo instalar Quarto: https://quarto.org/docs/download/

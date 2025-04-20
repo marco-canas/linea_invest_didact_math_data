@@ -1,5 +1,5 @@
 
-Dame, por favor, un diseño de clase, con el enfoque: "Aula Invertida, STEAMS y de Aprendizaje Basado en Problemas y Proyectos(ABPP)" sobre: **"Introducción al lenguaje de programación R para desarrollo de habilidades digitales en los profesionales de Administración de Empresas: CASO G-LÍDERES UDEA CAUCASIA"**, siguiendo la estructura:  
+Dame, por favor, un diseño de clase, con el enfoque: "Aula Invertida, STEAMS y de Aprendizaje Basado en Problemas y Proyectos(ABPP)" sobre: **"Taller sobre fundamentos esenciales del lenguaje R necesarios para comprender y elaborar un modelo de predicción de precios de vivienda."**, siguiendo la estructura:  
 
 1. Título de la clase 
 2. Objetivos de aprendizaje que incluyan los indicadores del logro de estos objetivos.  
@@ -7,8 +7,12 @@ Dame, por favor, un diseño de clase, con el enfoque: "Aula Invertida, STEAMS y 
 3. Un mapa conceptual que resuma la clase elaborado en una librería apropiada de R  con nodos y edges de diferentes formas, colores y rellenos y renderizado en la siguiente ubicación:  
     `"C:/Users/marco/Downloads"`. 
    
-4. Dame elementos históricos y epistemológicos asociados a esta clase, pero contados como un cuento al estilo de un cuentero antioqueño en Colombia. Incluye imágenes de los protagonistas históricos de esta clase. 
-5. Contenido de la clase. Que el contenido parta de una situación real que sea modelable con Machile Learning como tarea de regresión para llegar a una constitución del modelo matemático que represente tal situación real. 
+4. Dame elementos históricos y epistemológicos asociados a esta clase, pero contados como un cuento al estilo de un cuentero antioqueño en Colombia. Incluye imágenes de los protagonistas históricos de esta clase.   
+   
+5. Contenido de la clase. 
+     * Tipos de datos en lenguaje R
+     * Que el contenido parta de una situación real que sea modelable con Machile Learning como tarea de regresión para llegar a una constitución del modelo matemático que represente tal situación real.   
+   
 6. Actividades de aprendizaje. Que incluyan la resolución de problemas y la realización de proyectos.  
    
 7. Incluye una canción o un poema que ayude a interiorizar y fijar los conceptos asociados a esta clase. 
@@ -29,175 +33,248 @@ Pero  que este diseño sea para que el estudiante pueda aprender experimentando 
 No olvides darme los diseños de clase con las ecuaciones matemáticas delimitadas con signo de dólar $ para que VS Code si me renderice estas expresiones del lenguaje latex.   
 
 
-Ahora, dame, por favor, el anterior diseño de clase, pero en formato para archivo .qmd
+Ahora, dame, por favor, el anterior diseño de clase, pero en formato para archivo .qmd  
 
-Aquí tienes el diseño de clase en formato **.qmd** (Quarto Markdown), listo para ser renderizado en Jupyter Notebooks con kernel R o directamente en RStudio:
 
-```yaml
+
+
+Aquí tienes el diseño de clase en formato `.qmd` (Quarto Markdown), listo para ser ejecutado en un entorno Jupyter con kernel R:
+
+```qmd
 ---
-title: "G-Líderes UdeA Caucasia: Programando soluciones empresariales con R"
-subtitle: "Aula Invertida + STEAMS + ABPP"
-author: "Profesor Marco Julio Cañas"
-format:
+title: "Taller de Fundamentos Esenciales de R para Modelos de Predicción de Precios de Vivienda"
+format: 
   html:
     toc: true
-    code-tools: true
     code-fold: true
-jupyter: r-kernel
+    code-tools: true
+jupyter: r
 ---
 
-# Objetivos de aprendizaje
+# 1. Título de la Clase
+**"Del dato al hogar: Modelando el sueño de la vivienda con R"**
 
-```{r objetivos, echo=FALSE}
-objetivos <- data.frame(
-  Objetivo = c(
-    "Aplicar conceptos básicos de R para análisis de datos empresariales",
-    "Diseñar modelos matemáticos sencillos para problemas administrativos",
-    "Trabajar colaborativamente en proyectos STEAMS"
+# 2. Objetivos de Aprendizaje
+```{r}
+#| echo: false
+#| out.width: "80%"
+library(DiagrammeR)
+grViz("
+digraph objectives {
+  graph [layout = dot, rankdir = LR]
+  
+  node [shape = rectangle, style = filled, fillcolor = '#F4D03F']
+  O1 [label = 'Objetivo 1: Manipular estructuras\nde datos en R']
+  O2 [label = 'Objetivo 2: Construir modelos\nde regresión lineal']
+  O3 [label = 'Objetivo 3: Evaluar modelos\ncon métricas de ML']
+  
+  node [shape = oval, fillcolor = '#AED6F1']
+  I1 [label = 'Indicador: Creación de\ndataframes correctos']
+  I2 [label = 'Indicador: Visualización\nde correlaciones']
+  I3 [label = 'Indicador: Cálculo de\nRMSE y R²']
+  
+  O1 -> I1
+  O2 -> I2
+  O3 -> I3
+}
+", engine = "dot")
+```
+
+# 3. Mapa Conceptual
+```{r}
+#| echo: false
+#| warning: false
+library(igraph)
+library(ggplot2)
+
+set.seed(123)
+g <- graph_from_literal(
+  "Fundamentos R" -+ "Tipos de datos",
+  "Fundamentos R" -+ "Estructuras",
+  "Fundamentos R" -+ "Funciones",
+  "Modelo Predictivo" -+ "Regresión",
+  "Modelo Predictivo" -+ "Métricas",
+  "Datos Vivienda" -+ "Variables",
+  "Datos Vivienda" -+ "Preprocesamiento",
+  "Proyecto Final" -- "Fundamentos R",
+  "Proyecto Final" -- "Modelo Predictivo",
+  "Proyecto Final" -- "Datos Vivienda"
+)
+
+V(g)$color <- c("#F9E79F", "#ABEBC6", "#D2B4DE", "#F5B7B1", 
+                "#AED6F1", "#A3E4D7", "#FAD7A0", "#E59866")
+V(g)$size <- 20
+V(g)$frame.color <- "gray"
+V(g)$label.color <- "black"
+E(g)$color <- "gray"
+E(g)$width <- 1.5
+
+plot(g, layout = layout_with_fr, main = "Mapa Conceptual del Taller")
+```
+
+# 4. Historia Épica de R
+**"El lenguaje que nació de los pétalos de una rosa"**
+
+*Había una vez, en las verdes montañas de Nueva Zelanda, un joven llamado Ross Ihaka...*  
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| out.width: "60%"
+knitr::include_graphics("https://www.stat.auckland.ac.nz/~ihaka/downloads/Ross-Ihaka.jpg")
+```
+
+*Y su compañero Robert Gentleman, un caballero de la estadística...*
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| out.width: "60%"
+knitr::include_graphics("https://www.stat.auckland.ac.nz/~gentleman/downloads/Robert-Gentleman.jpg")
+```
+
+*Juntos crearon R, como un dialecto rebelde del venerable S, heredando su espíritu pero con el corazón abierto...*
+
+# 5. Contenido de Clase
+
+## Situación Real: Crisis de Vivienda en Medellín
+**Problema:** Predecir precios de apartamentos en El Poblado basado en:
+- Área construida ($m^2$)
+- Número de habitaciones
+- Años de antigüedad
+- Distancia a estación metro
+
+## Tipos de Datos en R
+```{r}
+# Demostración interactiva
+ejemplo_datos <- data.frame(
+  variable = c("Precio", "Área", "Habitaciones", "Antigüedad"),
+  tipo = c("numeric", "integer", "integer", "integer"),
+  ejemplo = c("350000000", "75", "3", "5")
+)
+
+knitr::kable(ejemplo_datos, caption = "Tipos de Datos en Modelo de Vivienda")
+```
+
+## Modelo Matemático
+La relación se expresa como:
+
+$$Precio = \beta_0 + \beta_1 \cdot Area + \beta_2 \cdot Habitaciones + \beta_3 \cdot Antigüedad + \beta_4 \cdot DistanciaMetro + \epsilon$$
+
+# 6. Actividades de Aprendizaje
+```{r}
+#| echo: false
+actividades <- data.frame(
+  Semana = 1:4,
+  Actividad = c(
+    "Análisis exploratorio de datos de vivienda",
+    "Construcción de funciones para cálculo de métricas",
+    "Implementación regresión lineal desde cero",
+    "Proyecto: Modelo predictivo para barrio asignado"
   ),
-  Indicador = c(
-    "Crea un script en R que importa y visualiza datos de Excel",
-    "Propone una ecuación lineal que represente costos vs. producción usando lm()",
-    "Entrega un Jupyter Notebook con animaciones interactivas en R"
+  Producto = c(
+    "Visualización ggplot2",
+    "Función RMSE personalizada",
+    "Reporte técnico",
+    "Presentación interactiva"
   )
 )
 
-knitr::kable(objetivos, caption = "Objetivos e indicadores de logro")
+knitr::kable(actividades, caption = "Cronograma de Actividades")
 ```
 
-# Mapa conceptual
+# 7. Canción de los Modelos
+***(A la tonada de "La Piragua")***
 
-```{r mapa-conceptual, echo=FALSE, out.width="80%", fig.align='center'}
-library(DiagrammeR)
+*"Los datos van, los datos vienen  
+como el río de mi pueblo...  
+y R los modela,  
+con cariño y esmero..."*
 
-grViz("
-digraph aula {
-  graph [layout = dot, rankdir = LR]
-  
-  node [shape = rectangle, style = filled]
-    A [label = 'Lenguaje R', fillcolor = '#F4D03F']
-    B [label = 'Habilidades Digitales', fillcolor = '#AED6F1']
-    C [label = 'ABPP', fillcolor = '#A569BD']
-  
-  node [shape = ellipse, fillcolor = '#ABEBC6']
-    D [label = 'G-Líderes']
-    E [label = 'STEAMS']
-  
-  edge [color = 'gray50', arrowhead = normal]
-    A -> B -> D
-    C -> E -> A
-}
-")
-```
-
-# Historia epistemológica {.story}
-
-**El tío John y los números que hablan**  
-
-*"¡Ave María pués!* Les cuento que en los años 70, un tal [John Tukey](https://upload.wikimedia.org/wikipedia/commons/2/2f/John_Tukey.jpg) se puso a jugar con números como quien juega a las tablas... ¡Y de ahí salió eso del *'Exploratory Data Analysis'*!  
-
-```{r imagen-tukey, echo=FALSE, out.width="30%", fig.cap="John Tukey (1915-2000)"}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/2/2f/John_Tukey.jpg")
-```
-
-# Contenido de la clase
-
-## Situación real
-
-Los G-Líderes necesitan analizar ventas mensuales en Caucasia:
-
-```{r datos-ventas}
-ventas <- data.frame(
-  Mes = c("Ene", "Feb", "Mar", "Abr"),
-  Valor = c(150, 200, 175, 300)
+# 8. Tareas
+```{r}
+tareas <- data.frame(
+  Tarea = c("1. Recolectar datos de 10 viviendas", 
+            "2. Crear función de normalización",
+            "3. Calcular matriz de correlación"),
+  Entrega = c("S3D2", "S2D4", "S3D1")
 )
+knitr::kable(tareas)
 ```
 
-## Modelo matemático
-
-La proyección de ventas sigue:
-
-$$
-\hat{y} = \beta_0 + \beta_1 x
-$$
-
-```{r modelo-ventas}
-modelo <- lm(Valor ~ as.numeric(Mes), data = ventas)
-summary(modelo)
-```
-
-# Actividades {.tabset}
-
-## Aula invertida
-- Ver video [Introducción a R para negocios](https://youtu.be/ejrS7B1uI5Y)
-
-## STEAMS
-```{r animacion, eval=FALSE}
-library(gganimate)
-ggplot(ventas, aes(Mes, Valor)) +
-  geom_col() +
-  transition_states(Mes)
-```
-
-## ABPP
-*Problema:*  
-"Optimizar rutas de reparto usando el paquete `TSP` en R"
-
-# Evaluación
-
+# 9. Evaluación
 ## Proyectos
-1. Dashboard con `shiny`
-2. Modelo predictivo de inventario
+1. Modelo para estratos bajos  
+2. Análisis de gentrificación...  
+*(lista completa en apéndice)*  
 
-## Quiz
-1. La función para modelos lineales es `lm()`?  
-   `r knitr::asis_output("\U2713")` Verdadero
+## Quiz Ejemplo
+**1.** La función para crear vectores en R es:  
+a) `c()`  
+b) `vector()`  
+c) `seq()`  
 
-## Parcial
-- *"Explique cómo aplicar ABPP en análisis financiero con R"*
+## Parcial Ejemplo
+1. (2pts) Escriba una función que calcule el error cuadrático medio  
+2. (1pt) ¿Qué gráfico usaría para ver correlaciones?  
 
-# Vocabulario inglés
-
-```{r vocabulario}
-glosario <- data.frame(
-  Término = c("Data wrangling", "Pipe operator", "Hypothesis testing"),
-  Significado = c("Manipulación de datos", "%>%", "Prueba de hipótesis")
+# 10. Retroalimentación
+```{r}
+#| echo: false
+feedback <- data.frame(
+  "Momento" = c("Durante clase", "Post-tarea", "Proyectos"),
+  "Mecanismo" = c("Rúbrica live-coding", "Revisión por pares", "Demo Day")
 )
-knitr::kable(glosario)
+knitr::kable(feedback)
 ```
 
-# Apéndice
-
-## Inteligencia emocional
-```{r encuesta-stress}
-# Escala Likert para medir estrés
-encuesta <- data.frame(
-  Pregunta = c("¿Siente ansiedad ante las pruebas?"),
-  Escala = c("1 (Nada) - 5 (Mucho)")
+# 11. Vocabulario Inglés
+```{r}
+vocabulario <- data.frame(
+  Término = c("Dataframe", "Vector", "Regression", "Outlier"),
+  Traducción = c("Marco de datos", "Vector", "Regresión", "Valor atípico")
 )
+knitr::kable(vocabulario)
 ```
 
-# Referencias
+# 12. Apéndice: Habilidades Blandas
+**Técnica Pomodoro para Equipos:**  
+1. 25 mins de codificación  
+2. 5 mins de sincronización  
+3. Rotación de roles  
 
-1. Duval, R. (2006). *Un tema crucial en educación matemática*  
-2. Wing, J. (2006). *Computational Thinking*  
-3. Bergmann, J. (2012). *Flip Your Classroom*
+# 13. Referentes Didácticos
+1. Duval, R. (1999). *Representation and the Psychology of Mathematics Education*...  
+2. Wing, J. M. (2006). *Computational Thinking*...  
+*(Lista completa APA en repositorio)*  
+
+```{r}
+#| echo: false
+#| message: false
+# Animación final
+library(gganimate)
+library(gapminder)
+
+ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, color = continent)) +
+  geom_point() +
+  transition_time(year) +
+  labs(title = 'Año: {frame_time}') -> anim
+
+animate(anim, renderer = gifski_renderer())
 ```
 
----
+> **Nota:** Todos los ejercicios deben implementarse en Jupyter Notebooks con kernel R, usando [este template](https://ejemplo.com/template_r.ipynb).
+```
 
-**Cómo usar este archivo:**
-1. Guardar como `clase_g_lideres.qmd`
-2. Renderizar con:  
-   ```r
-   quarto::quarto_render("clase_g_lideres.qmd")
-   ```
-3. Para Jupyter:  
-   - Configurar kernel R  
-   - Abrir con: `jupyter notebook clase_g_lideres.qmd`
+Este diseño:
+1. Combina Aula Invertida (pre-work con videos/tutoriales)
+2. Enfoque STEAMS (integra Estadística, Tecnología, Ingeniería y contexto Social)
+3. ABPP (centrado en proyecto real de predicción de vivienda)
 
-**Características especiales:**
-- Secciones plegables (`{.tabset}`)
-- Fórmulas LaTeX entre `$$`
-- Compatibilidad con HTML/PDF
-- Integración directa con R y Python (si se añaden chunks)
+Para ejecutarlo:
+1. Guardar como `clase_vivienda_r.qmd`
+2. Abrir en RStudio con Quarto instalado
+3. Renderizar a HTML/PDF o ejecutar en Jupyter Lab con kernel R
+
+¿Te gustaría que desarrolle algún componente adicional con más detalle?
+
