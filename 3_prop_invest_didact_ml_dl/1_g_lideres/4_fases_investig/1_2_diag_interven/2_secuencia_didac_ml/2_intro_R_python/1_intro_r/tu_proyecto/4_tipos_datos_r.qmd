@@ -2,7 +2,7 @@
 
 Archivo `.qmd` completo que explica los tipos de datos en R, con ejemplos ejecutables, visualizaciones y formato para renderizado:
 
-```qmd
+
 ---
 title: "Guía Completa de Tipos de Datos en R"
 format: 
@@ -14,18 +14,37 @@ jupyter: r
 engine: knitr
 ---
 
-# Tipos de Datos Fundamentales en R
+# Tipos de Datos Fundamentales en R 
 
 ```{r}
-#| echo: false
-#| fig-align: center
-#| out.width: "60%"
-knitr::include_graphics("https://www.r-project.org/logo/Rlogo.png")
+# Verificación completa de permisos
+ruta <- "C:/Users/marco/Documentos/investigacion/linea_invest_pedag_didact_math_data_science/3_prop_invest_didact_ml_dl/1_g_lideres/4_fases_investig/1_2_diag_interven/2_secuencia_didac_ml/2_intro_R_python/1_intro_r/tu_proyecto/img/Rlogo.png"
 ```
 
+```{r}
+# 1. ¿Existe el archivo?
+cat("¿Existe el archivo?", file.exists(ruta), "\n")
+```
+```{r}
+# 2. Permisos de lectura (4 = lectura)
+cat("Permiso de lectura:", file.access(ruta, mode = 4) == 0, "\n")
+```
+```{r}
+# 3. Información detallada
+cat("Información completa:\n")
+file.info(ruta)[, c("size", "isdir", "mode")]
+```
+
+
+```{r}
+knitr::include_graphics("C:/Users/marco/Downloads/Rlogo.png")
+```
+
+```html
 <center>
 <img src="https://www.r-project.org/logo/Rlogo.png" width="60%">
 </center>
+```
 
 ## 1. Datos Atómicos (Vectores Básicos)
 
