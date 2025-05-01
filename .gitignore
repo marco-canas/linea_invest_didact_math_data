@@ -21,3 +21,6 @@ __pycache__/
 *.h5
 referentes_bibliograficos/
 referentes_bibliograficos/MetodologiaInvestigacionNaupas.pdf/
+*.pdf/
+*.docx/
+*.doc/

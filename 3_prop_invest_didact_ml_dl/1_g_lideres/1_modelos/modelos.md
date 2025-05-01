@@ -3,12 +3,12 @@
 
 (Becker, 1964; Schultz, 1961): Vincula la inversión en habilidades digitales con productividad laboral.
 
-### **La Teoría del Capital Humano en el Contexto de la Investigación Propuesta**  
+## **La Teoría del Capital Humano en el Contexto de la Investigación Propuesta**  
 **(Becker, 1964; Schultz, 1961)**  
 
 La **Teoría del Capital Humano** (TCH) postula que las habilidades, conocimientos y competencias de los individuos son formas de "capital" que, al ser desarrolladas mediante educación y formación, generan retornos económicos tanto para los individuos (mayor empleabilidad y salarios) como para las organizaciones y la sociedad (aumento de productividad e innovación). En el marco de la investigación sobre el desarrollo de habilidades digitales en los estudiantes de Administración de Empresas del programa **G-Líderes (UdeA Caucasia)**, esta teoría ofrece un sustento clave para justificar la inversión en formación tecnológica como estrategia para reducir brechas y mejorar la competitividad regional.  
 
-#### **Alineación con la Propuesta Investigativa**    
+### **Alineación con la Propuesta Investigativa**    
 
 1. **Inversión en habilidades digitales = Mayor productividad laboral**  
    - Becker (1964) enfatiza que la educación es una inversión con retornos a largo plazo. La intervención propuesta (talleres en *Power BI, Machine Learning y Deep Learning*) busca equipar a los estudiantes con competencias demandadas en el mercado laboral digital, lo que incrementará su capacidad para generar valor en entornos empresariales.  
@@ -21,12 +21,12 @@ La **Teoría del Capital Humano** (TCH) postula que las habilidades, conocimient
 3. **Motivación y autodeterminación**  
    - Aunque la TCH se centra en aspectos económicos, la **Teoría de la Autodeterminación** (Deci & Ryan, 1985) complementa el marco al analizar cómo la motivación intrínseca facilita la adopción de tecnologías. Los talleres prácticos buscan fomentar la autonomía y la competencia percibida en los estudiantes, factores críticos para la retención de habilidades digitales.  
 
-#### **Críticas y Adaptaciones**  
+### **Críticas y Adaptaciones**  
 La TCH ha sido cuestionada por su enfoque economicista, ignorando barreras estructurales (ej.: acceso a internet en zonas rurales). Sin embargo, esta investigación integra dichas críticas al:  
 - Diagnosticar limitaciones infraestructurales (*brecha digital*).  
 - Proponer talleres con herramientas accesibles (ej.: Google Colab, datasets abiertos de Kaggle).  
 
-#### **Conclusión**  
+### **Conclusión**  
 La TCH proporciona un marco sólido para justificar la intervención educativa, vinculando directamente la adquisición de habilidades digitales con:  
 - **Mejora en la empleabilidad** de los estudiantes.  
 - **Contribución al desarrollo regional** (Caucasia) mediante profesionales preparados para la Transformación Digital (TD).  
@@ -43,15 +43,12 @@ La TCH proporciona un marco sólido para justificar la intervención educativa, 
 Este enfoque teórico refuerza la **originalidad** de la investigación al conectar la formación en habilidades digitales con necesidades locales, utilizando marcos globales pero adaptados a un contexto específico 
 
 
-
-
 # **Teoría del Desarrollo Organizacional (DO)**   
 
 Puede aplicarse a la implementación de programas de desarrollo de habilidades digitales.  
 
----
 
-### **Teoría del Desarrollo Organizacional (DO)**  
+## **Teoría del Desarrollo Organizacional (DO)**  
 
 El **Desarrollo Organizacional (DO)** es un campo de estudio y práctica que se enfoca en cómo las organizaciones **gestionan el cambio** para mejorar su eficiencia, productividad y adaptación al entorno.   
 
@@ -59,9 +56,8 @@ Se basa en teorías del comportamiento organizacional, la psicología y la gesti
 
 Esta teoría es clave para entender cómo **las organizaciones pueden implementar y evaluar programas de transformación digital**, como el  desarrollo de habilidades en **Power BI, Machine Learning y Deep Learning con Python** en el contexto del programa de Administración de Empresas en la Universidad de Antioquia – Campus Caucasia.  
 
----
 
-### **Principales Enfoques del Desarrollo Organizacional**  
+## **Principales Enfoques del Desarrollo Organizacional**  
 
 El DO se basa en varios principios que guían la **implementación de cambios organizacionales**:  
 
@@ -80,7 +76,6 @@ El DO se basa en varios principios que guían la **implementación de cambios or
    - El DO usa **análisis de datos, encuestas y evaluación del desempeño** para medir la efectividad de los cambios.  
    - En nuestro contexto, Power BI y Python permiten evaluar métricas clave como **adopción tecnológica, impacto en la productividad y satisfacción de los empleados**.  
 
----
 
 ### **Modelo de Implementación de Desarrollo de Habilidades Digitales**  
 
@@ -111,7 +106,7 @@ Para llevar a cabo un programa exitoso de formación en **Power BI y Machine Lea
    - Creación de una comunidad de práctica digital dentro del programa de Administración de Empresas.  
    - Documentación de mejores prácticas y casos de éxito.  
 
----
+
 
 ### **Impacto Esperado del Desarrollo Organizacional en Habilidades Digitales**  
 
@@ -122,7 +117,6 @@ La implementación de un enfoque de **Desarrollo Organizacional** en este progra
 - **Cambio cultural hacia la transformación digital**: Fomento de la analítica de datos en la gestión empresarial.  
 - **Incremento en la competitividad de los egresados**: Mayor empleabilidad y adaptación a entornos empresariales tecnológicos.  
 
----
 
 ### **Conclusión**  
 
@@ -151,7 +145,6 @@ Esta teoría sostiene que el aprendizaje es un proceso en el que los estudiantes
 - Se pueden diseñar actividades donde los estudiantes utilicen datos de empresas locales del Bajo Cauca para generar reportes en Power BI que ayuden a la toma de decisiones.  
 - En Machine & Deep Learning con Python, los estudiantes podrían trabajar con datos históricos de ventas o clientes, aplicando modelos de predicción y evaluación.  
 
----
 
 ## **2. Constructivismo Social (Vygotsky, 1978)**
 Desde esta perspectiva, el aprendizaje ocurre a través de la interacción social y el uso de herramientas mediadoras. Se basa en dos principios clave:  
@@ -172,7 +165,6 @@ El docente guía el proceso inicial con ejemplos concretos y, gradualmente, dism
 2. Luego, les proporciona datasets con datos ruidosos para que ellos mismos los procesen antes de generar insights.  
 3. Finalmente, trabajan con datos empresariales reales y deben desarrollar sus propias soluciones analíticas.  
 
----
 
 ## **3. Aplicación de la Metodología de Aprendizaje Basado en Problemas (ABP)**
 El ABP encaja perfectamente con el **aprendizaje experiencial** y el **constructivismo** en el desarrollo de habilidades digitales para la Administración de Empresas.  
@@ -189,11 +181,8 @@ El ABP encaja perfectamente con el **aprendizaje experiencial** y el **construct
 - **Caso de Machine Learning con Python:**  
   *Un negocio quiere predecir la deserción de clientes a partir de datos de transacciones.* Los estudiantes aplican modelos de clasificación en Python, comparan métricas y presentan recomendaciones basadas en los resultados obtenidos.  
 
----
 
 ## **Conclusión**
 Aplicar el aprendizaje **experiencial** y **constructivista** en el desarrollo de habilidades digitales permitirá que los estudiantes del **Programa de Administración de Empresas** en Caucasia no solo adquieran conocimientos teóricos, sino que los apliquen en situaciones reales, mejorando su desempeño laboral.  
 
-Además, el enfoque de **Aprendizaje Basado en Problemas (ABPP)** los prepara para enfrentar desafíos empresariales con herramientas como **Power BI y Machine Learning con Python**, contribuyendo a la toma de decisiones basada en datos dentro de las organizaciones.  
-
-
+Además, el enfoque de **Aprendizaje Basado en Problemas y Proyectos (ABPP)** los prepara para enfrentar desafíos empresariales con herramientas como **Power BI y Machine Learning con Python**, contribuyendo a la toma de decisiones basada en datos dentro de las organizaciones.  
