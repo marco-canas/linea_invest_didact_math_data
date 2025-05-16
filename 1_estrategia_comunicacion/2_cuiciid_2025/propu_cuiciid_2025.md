@@ -6,7 +6,7 @@ Dame, por favor, un diseño de presentación de mi trabajo de docencia investiga
  
  	
  
-Estimados colegas, caros colegas, chers collègues, cari colleghi, dear colleagues:
+Estimados colegas
 
 Estamos orgullosos de presentar ante la Academia la XV edición del Congreso VIRTUAL y EN LÍNEA (no presencial) CUICIID 2025 (Congreso Universitario Internacional sobre Contenidos, Investigación, Innovación y Docencia) www.cuiciid.net
 
