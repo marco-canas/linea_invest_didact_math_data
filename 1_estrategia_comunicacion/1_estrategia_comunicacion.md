@@ -1,3 +1,15 @@
+# Datos de la coordinación de investigación 
+
+* margarita maría restrepo acevedo 
+* 
+
+¿Cómo apoyar a los grupos de investigación con la gestión de los datos en Investigación cualitativa y cuantitativa?
+
+Fomentar la movilidad internacional de los estudiantes investigadores. 
+
+Hay Semillero de internacionalización de la investigación.
+
+
 Para promocionar tu línea de investigación en didáctica de la ciencia de datos y la matemática con Python y cuadernos Jupyter,   
 una estrategia de comunicación empática se enfocará en conectar con tu audiencia a través de sus intereses, necesidades y   
 aspiraciones en el aprendizaje y la enseñanza de estos temas. Aquí tienes una propuesta de pasos y mensajes clave:

@@ -4,3 +4,5 @@
 implementado a través de cuadernos Jupyter y las representaciones tabular y gráfica de las funciones, dejando de privilegiar al razonamiento algebraico. 
 Marco Julio Cañas Campillo
    Puede recuperar la publucación en: https://zenodo.org/records/14290802
+
+[Cartillas en Educación: Enseñanza del Machine Learning](https://bibliotecadigital.udea.edu.co/collections/36d3e827-5d18-40e2-844b-342aee1686b5)
