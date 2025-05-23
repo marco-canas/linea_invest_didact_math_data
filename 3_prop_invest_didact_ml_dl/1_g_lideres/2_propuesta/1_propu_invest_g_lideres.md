@@ -5,10 +5,9 @@
 
 ## DEVELOPMENT OF DIGITAL SKILLS IN BUSINESS ADMINISTRATION PROFESSIONALS: CASE STUDY G-LÍDERES, UNIVERSITY OF ANTIOQUIA, CAUCASIA
 
----
 ### Track: Transformación Digital y Nuevas Tecnologías en la Gestión Empresarial
 
-4:20 a 6:00 PM   
+
 
 León Jaime Acosta Herrera, 
 Leidy Bibiana De La Ossa Villadiego and 
@@ -19,7 +18,6 @@ Universidad de Antioquia
 
 El objetivo de esta investigación es desarrollar habilidades digitales en los profesionales de Administración de Empresas del programa G-Líderes de la Universidad de Antioquia, sede Caucasia, mediante una intervención educativa basada en estándares internacionales de competencias digitales.
 
----
 
 ## **Resumen**
 
@@ -43,7 +41,6 @@ Estas barreras afectan su empleabilidad y capacidad para responder a los desafí
 
 El objetivo general de esta investigación es diseñar e implementar un programa de formación en habilidades digitales para los estudiantes del programa G-Líderes, mediante talleres prácticos en Power BI, Machine Learning y Deep Learning. La propuesta busca evaluar el impacto de la intervención en el desarrollo de competencias técnicas y su aplicabilidad en contextos empresariales reales, contribuyendo así a los esfuerzos nacionales por reducir las desigualdades educativas y tecnológicas.
 
----
 
 ## **Introducción**
 
@@ -55,7 +52,6 @@ La formación en TDs es clave para la productividad y competitividad empresarial
 
 Esto demanda estrategias educativas que preparen profesionales para liderar la transformación digital (TD), integrando herramientas como Power BI, Machine Learning y Deep Learning.
 
----
 
 ## **Problemáticas de los Estudiantes**
 
@@ -67,7 +63,6 @@ Los estudiantes del programa enfrentan:
 4. **Desconexión academia-sector empresarial**: Competencias no alineadas con demandas laborales (Rodríguez et al., 2023).
 5. **Barreras socioeconómicas**: Acceso limitado a formación complementaria (Londoño & Restrepo, 2021).
 
----
 
 ## **Marco Referencial**
 
@@ -77,7 +72,6 @@ Los estudiantes del programa enfrentan:
 
 Se refiere a un proceso de cambio fundamental, habilitado por el uso innovador de las tecnologías digitales y el apalancamiento estratégico de recursos y capacidades clave, que tiene como objetivo mejorar radicalmente una entidad y redefinir su propuesta de valor para sus partes interesadas (Gong & Ribiere, 2021).
 
----
 
 **2. Tecnologías Digitales (TDs)**
 

@@ -76,6 +76,16 @@ Aquí tienes un diseño estructurado para tu presentación en el **Congreso Inte
 - **Contexto:** Desafíos en la enseñanza de matemáticas en el Bajo Cauca (brechas digitales, diversidad disciplinar).  
 - **Objetivo:** Transformar la docencia mediante IAE para evaluar enfoques pedagógicos (AI, ABPP, STEAMS, TRRS).  
 - *Visual:* Mapa conceptual con los 4 enfoques interconectados.  
+- *  Objetivo general
+  - Transformar las prácticas pedagógicas en la docencia universitaria de matemáticas mediante la **Investigación Acción Educativa (IAE)**, aplicando ciclos sistemáticos de **planificación, acción, observación y reflexión**.  
+
+- **Específicos:**  
+  1. Evaluar la eficacia de enfoques innovadores (**Aula Invertida, ABPP, STEAMS, TRRS de Duval**) en el aprendizaje de las matemáticas.  
+  2. Integrar herramientas digitales (**Jupyter con Python, IA, GitHub**) para fortalecer habilidades en **ciencia de datos y pensamiento crítico**.  
+  3. Contextualizar la enseñanza en el **Bajo Cauca antioqueño**, abordando problemáticas socioeducativas mediante proyectos interdisciplinares.  
+  4. Analizar el impacto de la **Teoría de Registros de Representación Semiótica (TRRS)** en la comprensión de conceptos matemáticos mediante múltiples representaciones (gráficas, algebraicas, computacionales, etc.).  
+  5. Medir el **engagement estudiantil** y el rendimiento académico mediante métodos mixtos (encuestas, grupos focales, análisis cuantitativo).  
+
 
 #### **3. Metodología (IAE)**  
 - **Ciclo IAE:**  
