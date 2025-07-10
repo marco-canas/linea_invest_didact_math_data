@@ -4,7 +4,7 @@ Basado en los requisitos de la convocatoria y considerando su perfil como cient�
 
 ## 1. Plataforma de Análisis Predictivo para la Gestión de Cultivos en el Bajo Cauca
 
-**Descripción**: Desarrollo de un sistema basado en Python que utilice aprendizaje automático para predecir rendimientos agrícolas, riesgos climáticos y optimización de recursos en los cultivos típicos de la región (cacao, caña, plátano).
+**Descripción**: Desarrollo de un sistema basado en Python que utilice aprendizaje automático para predecir rendimientos agrícolas, riesgos climáticos y optimización de recursos en los cultivos típicos de la región (cacao, arroz).
 
 **Alineación con la convocatoria**:
 - Aborda necesidades críticas del sector agrícola en la región 
@@ -16,7 +16,7 @@ Basado en los requisitos de la convocatoria y considerando su perfil como cient�
 - Modelos de series de tiempo para predicción de cosechas
 - Interfaz accesible para agricultores mediante Jupyter notebooks adaptados 
 
-## 2. Sistema de Monitoreo y Análisis de Calidad del Agua en el Río Cauca
+## 2. Sistema de Monitoreo y Análisis de Calidad del Agua en el Río Cauca y otras fuentes hídricas del municipio (humedales cienagas). 
 
 **Descripción**: Implementación de una red de sensores y plataforma analítica para evaluar en tiempo real parámetros de calidad del agua, identificando fuentes de contaminación y proponiendo soluciones.
 
