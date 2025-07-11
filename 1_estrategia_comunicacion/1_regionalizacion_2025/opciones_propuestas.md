@@ -1,10 +1,8 @@
 # [Ideas de Proyectos de Investigación para la Convocatoria de Regionalización 2025](https://udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/convocatorias-codi/!ut/p/z1/jZDNDoIwEISfhSfobsuPHJfSaEUpTSBgL4aTaaLowfj8EmM8EEX2tsk3szvDHOuYG_qHP_V3fx3687gfXHwsbaSQS9gB1RnQvogRtcbMImtfwCqVHCkcgQIjIKuqsjayyrecuSV6-DEEy_QzgJu3b5mbPUHJG_hENLkZI8a52tQohEQ-dTBaKLBpGVVirXmYiKnDl5L-vXm7NE0HXnsKgieh3XRP/?1dmy&page=udea.generales.interna&urile=wcm%3Apath%3A%2FPortalUdeA%2FasPortalUdeA%2FasHomeUdeA%2FInvestigaci%2521c3%2521b3n%2FConvocatorias%2By%2Bfondos%2FConvocatorias%2BCODI%2FContenido%2FasArchivosDescargas%2Fconvocatoria-proyectos-de-investigacion-regionalizacion-2025)
 
-Basado en los requisitos de la convocatoria y considerando su perfil como científico de datos con Python junto a colegas magísteres en matemáticas en la región del Bajo Cauca, le presento las siguientes propuestas de proyectos de investigación:
+## Plataforma de Análisis Predictivo para la Gestión de riesgos climáticos para Cultivos en el Bajo Cauca
 
-## 1. Plataforma de Análisis Predictivo para la Gestión de Cultivos en el Bajo Cauca
-
-**Descripción**: Desarrollo de un sistema basado en Python que utilice aprendizaje automático para predecir rendimientos agrícolas, riesgos climáticos y optimización de recursos en los cultivos típicos de la región (cacao, arroz).
+**Descripción**: Desarrollo de un sistema basado en Python que utilice aprendizaje automático para predecir riesgos climáticos en los cultivos típicos de la región (cacao, arroz).
 
 **Alineación con la convocatoria**:
 - Aborda necesidades críticas del sector agrícola en la región 
@@ -44,34 +42,6 @@ Basado en los requisitos de la convocatoria y considerando su perfil como cient�
 - Gamificación de conceptos matemáticos
 - Capacitación docente en herramientas digitales
 
-## 4. Modelo Predictivo para la Gestión de Riesgos en Minería Artesanal
-
-**Descripción**: Desarrollo de un sistema que analice datos geológicos y de accidentes para predecir zonas de riesgo en la minería artesanal, principal actividad económica de la región.
-
-**Alineación con la convocatoria**:
-- Aborda un problema crítico de seguridad laboral en la región
-- Combina matemáticas (modelos espaciales) y ciencia de datos
-- Puede vincularse con cooperativas mineras y autoridades locales
-
-**Metodología**:
-- Análisis de datos históricos de accidentes
-- Modelos de riesgo georreferenciados
-- Sistema de alertas tempranas
-
-## 5. Plataforma de Análisis de Datos para el Turismo Sostenible en el Bajo Cauca
-
-**Descripción**: Sistema que analice patrones turísticos, impactos económicos y capacidad de carga de los atractivos naturales de la región, proponiendo estrategias de desarrollo sostenible.
-
-**Alineación con la convocatoria**:
-- Promueve desarrollo económico sostenible 
-- Utiliza ciencia de datos para planificación territorial
-- Involucra actores del sector turístico local
-
-**Entregables**:
-- Modelos predictivos de afluencia turística
-- Recomendaciones de gestión basadas en datos
-- Visualizaciones interactivas para tomadores de decisiones
-
 ## Recomendaciones para la Elaboración de la Propuesta
 
 1. **Vinculación con agendas subregionales**: Revise específicamente las necesidades del Bajo Cauca en las agendas mencionadas en la convocatoria 
@@ -85,3 +55,7 @@ Basado en los requisitos de la convocatoria y considerando su perfil como cient�
 5. **Participación estudiantil**: Incluya en el proyecto al menos un estudiante regional, como exige la convocatoria 
 
 Cada una de estas ideas puede desarrollarse utilizando Python como herramienta principal, aprovechando su experiencia en ciencia de datos y la formación matemática de sus colegas, mientras cumplen con los requisitos específicos de la convocatoria de regionalización.
+
+# Referentes  
+
+[convocatoria CODI 2025](https://udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/convocatorias-codi/!ut/p/z1/jZDNDoIwEISfhSfobsuPHJfSaEUpTSBgL4aTaaLowfj8EmM8EEX2tsk3szvDHOuYG_qHP_V3fx3687gfXHwsbaSQS9gB1RnQvogRtcbMImtfwCqVHCkcgQIjIKuqsjayyrecuSV6-DEEy_QzgJu3b5mbPUHJG_hENLkZI8a52tQohEQ-dTBaKLBpGVVirXmYiKnDl5L-vXm7NE0HXnsKgieh3XRP/?1dmy&page=udea.generales.interna&urile=wcm%3Apath%3A%2FPortalUdeA%2FasPortalUdeA%2FasHomeUdeA%2FInvestigaci%2521c3%2521b3n%2FConvocatorias%2By%2Bfondos%2FConvocatorias%2BCODI%2FContenido%2FasArchivosDescargas%2Fconvocatoria-proyectos-de-investigacion-regionalizacion-2025)
