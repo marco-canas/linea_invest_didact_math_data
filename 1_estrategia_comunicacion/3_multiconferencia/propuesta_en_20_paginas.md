@@ -7,21 +7,39 @@ Basado en las normas de presentación de trabajos para la **Multiconferencia Int
 ## **1. Portada**  
 - Título del trabajo:  
   *"Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola"*  
-- Autores:  
+- Autor: Marco Julio Cañas Campillo.   
   - Nombre(s) y afiliación institucional (Universidad de Antioquia, Facultad de Ciencias Agrarias, Campus Caucasia).  
 - Congreso:  
   - **HUMANOS-XXI 2025** (7-9 de octubre, modalidad virtual).  
 - Palabras clave (5-6):  
   *Educación en ingeniería, Álgebra lineal aplicada, Ciencia de datos agropecuaria, Investigación-Acción Educativa, Transdisciplinariedad, Innovación pedagógica.*  
 
----
 
-## **2. Resumen** (1 página)  
-- **Objetivo**: Presentar un modelo de curso de álgebra lineal con enfoque en **IAE** y aplicaciones agropecuarias, basado en las necesidades del sector y los fundamentos de ciencia de datos de Aurélien Géron .  
-- **Metodología**: Ciclos de reflexión-acción, vinculación con problemas reales del Bajo Cauca, y evaluación continua.  
-- **Resultados esperados**: Mejora en la pertinencia curricular, reducción de la brecha academia-sector, y publicación de hallazgos en la *Revista Transdisciplinary Science* (si es seleccionado) .  
 
----
+## **2. Resumen** 
+**Título:** *"Investigación-Acción Educativa (IAE) en la enseñanza del álgebra lineal para Ingeniería Agropecuaria: Un enfoque hacia la ciencia de datos y la optimización agrícola"*  
+
+**Objetivo:**  
+Este trabajo reflexivo propone un modelo innovador de curso de álgebra lineal basado en **Investigación-Acción Educativa (IAE)**, diseñado para el programa de Ingeniería Agropecuaria de la Universidad de Antioquia (Campus Caucasia). El objetivo central es **cerrar la brecha entre la formación académica y las demandas reales del sector agropecuario colombiano**, integrando fundamentos de ciencia de datos (según Aurélien Géron) con aplicaciones prácticas en optimización de procesos agrícolas.  
+
+**Metodología:**  
+El diseño sigue ciclos iterativos de **planificación-acción-observación-reflexión** (Kemmis & McTaggart), vinculando:  
+1. **Contenidos teóricos** (vectores, matrices, sistemas lineales, PCA) con problemas reales del **Bajo Cauca antioqueño** (ej: análisis de rendimiento de cultivos, logística de distribución).  
+2. **Herramientas computacionales** (Python, Scikit-Learn) para implementar modelos predictivos simples.  
+3. **Evaluación continua** mediante portafolios estudiantiles y proyectos aplicados con agricultores locales.  
+
+**Resultados esperados:**  
+1. **Impacto pedagógico:** Mejora en la pertinencia curricular y motivación estudiantil al conectar las matemáticas con desafíos agroindustriales.  
+2. **Impacto social:** Soluciones accesibles para pequeños productores (ej: predicción de cosechas mediante regresión lineal).  
+3. **Divulgación:** Publicación de hallazgos en la *Revista Transdisciplinary Science* (en caso de selección) y réplica del modelo en otras ingenierías con enfoque rural.  
+
+**Contribución a HUMANOS-XXI:**  
+Este trabajo se alinea con los ejes temáticos del congreso:  
+- *"Por un sistema de educación que realmente forme profesionales"*, al demostrar cómo la IAE mejora la empleabilidad de los ingenieros agropecuarios.  
+- *"Ciencia transdisciplinar para el desarrollo"*, al integrar matemáticas, agronomía y tecnología con un enfoque de **justicia social** para el campo colombiano.  
+
+**Palabras clave:** Educación en ingeniería, Álgebra lineal aplicada, Ciencia de datos agropecuaria, Investigación-Acción Educativa, Transdisciplinariedad, Innovación pedagógica.  
+
 
 ## **3. Introducción** (2-3 páginas)  
 ### **3.1. Contexto y justificación**  
