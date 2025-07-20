@@ -1,0 +1,80 @@
+{
+    "proyecto": "Investigación cualitativa sobre dinámicas comunitarias en el Bajo Cauca Antioqueño",
+    "institucion": "Universidad de Antioquia",
+    "investigadores": [
+        "Ana María Pérez",
+        "Carlos Andrés Gómez",
+        "Luisa Fernanda Ramírez"
+    ],
+    "fecha_inicio": "2023-03-15",
+    "municipios_estudio": [
+        "Cáceres",
+        "Caucasia",
+        "El Bagre",
+        "Nechí",
+        "Tarazá",
+        "Zaragoza"
+    ],
+    "metodologia": {
+        "tipo": "Investigación acción participativa",
+        "tecnicas": [
+            "Entrevistas semiestructuradas",
+            "Grupos focales",
+            "Observación participante",
+            "Talleres comunitarios"
+        ],
+        "muestra": 45,
+        "duracion_meses": 12
+    },
+    "perfiles_participantes": [
+        {
+            "id": "PC001",
+            "nombre": "Doña Rosa",
+            "edad": 58,
+            "genero": "femenino",
+            "municipio": "Cáceres",
+            "rol_comunitario": "Líder de asociación de mujeres",
+            "temas_abordados": [
+                "Economía familiar",
+                "Violencia de género",
+                "Cultivos alternativos"
+            ],
+            "entrevistas_realizadas": 3
+        },
+        {
+            "id": "PC002",
+            "nombre": "Don Javier",
+            "edad": 42,
+            "genero": "masculino",
+            "municipio": "El Bagre",
+            "rol_comunitario": "Minero artesanal",
+            "temas_abordados": [
+                "Conflictos territoriales",
+                "Economía extractiva",
+                "Salud laboral"
+            ],
+            "entrevistas_realizadas": 2
+        },
+        {
+            "id": "PC003",
+            "nombre": "María",
+            "edad": 24,
+            "genero": "femenino",
+            "municipio": "Tarazá",
+            "rol_comunitario": "Estudiante universitaria",
+            "temas_abordados": [
+                "Educación rural",
+                "Migración juvenil",
+                "Uso de tecnologías"
+            ],
+            "entrevistas_realizadas": 1
+        }
+    ],
+    "hallazgos_preliminares": {
+        "economia": "Dependencia crítica de actividades extractivas con necesidad de diversificación",
+        "seguridad": "Presencia de múltiples actores armados que condicionan la vida cotidiana",
+        "genero": "Fortalecimiento de redes de mujeres como estrategia de resistencia",
+        "juventud": "Altos índices de migración hacia centros urbanos por falta de oportunidades"
+    },
+    "notas_metodologicas": "Todos los participantes firmaron consentimiento informado. Se utilizaron pseudónimos para proteger identidades."
+}
