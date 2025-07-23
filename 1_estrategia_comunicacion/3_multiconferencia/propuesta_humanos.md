@@ -1,7 +1,7 @@
 
 Promp para diseño de esta propuesta:  
 
-Dame un programa preliminar de enseñanza del álgebra lineal para el programa de Ingeniería agropecuaria de la Facultad de Ciencias Agrarias de la Universidad de Antioquia en el Campus Caucasia para el semestre 2025-2 con un enfoque hacia la ciencia de datos que le permita al futuro ingeniero optimizar los procesos agrícolas. Donde busque brindar todo lo que Aurelien Geron considera necesario para hacerse un científico de datos en su libro "Hans On Machine Learning with scikit-learn, keras and tensorflow. Concepts, Tools and Techniques to Build inteligents systems" https://github.com/ageron/handson-ml3. Pero diseña este curso con un enfoque de Investigación Acción Educativa o IAE, que permita que semestre a semestre, este curso crezca en didáctica de la enseñanza del álgebra lineal para el Programa de Ingeniería agropecuaria de la Facultad de Ciencias Agrarias de la Universidad de Antioquia en el Campus, disminuyendo la distancia entre el currículo y lo que el sector agropecuario de Colombia y el mundo necesitan. Luego, Configura este Programa de Álgebra Lineal con enfoque de mejora investigativo como un trabajo reflexivo para el congreso Humanos XXI https://fundacioniai.org/humanosxxi/. 
+Dame un programa preliminar de enseñanza del álgebra lineal para el programa de Ingeniería Agropecuaria de la Facultad de Ciencias Agrarias de la Universidad de Antioquia en el Campus Caucasia para el semestre 2025-2 con un enfoque hacia la ciencia de datos que le permita al futuro ingeniero optimizar los procesos agrícolas. Donde busque brindar todo lo que Aurélien Géron considera necesario para hacerse un científico de datos en su libro "Hans On Machine Learning with Scikit-learn, keras and TensorFlow. Concepts, Tools and Techniques to Build inteligents systems" https://github.com/ageron/handson-ml3. Pero diseña este curso con un enfoque de Investigación Acción Educativa o IAE, que permita que semestre a semestre, este curso crezca en didáctica de la enseñanza del álgebra lineal para el Programa de Ingeniería agropecuaria de la Facultad de Ciencias Agrarias de la Universidad de Antioquia en el Campus Caucasia, disminuyendo la distancia entre el currículo y lo que el sector agropecuario de Colombia y el mundo necesitan. Luego, Configura este Programa de Álgebra Lineal con enfoque de mejora investigativo como un trabajo reflexivo para el congreso Humanos XXI https://fundacioniai.org/humanosxxi/. 
 
 
 
@@ -10,18 +10,22 @@ Dame un programa preliminar de enseñanza del álgebra lineal para el programa d
 **Título:**  
 *"Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola"*  
 
-**Autores:**  
-[Instituciones participantes: Universidad de Antioquia - Facultad de Ciencias Agrarias, Campus Caucasia]  
+**Autor:**  
+Marco Julio Cañas Campillo
+Universidad de Antioquia   
+Facultad de Ciencias Agrarias,   
+Campus Caucasia  
 
 **Resumen:**  
 Este trabajo reflexivo presenta una propuesta de innovación pedagógica basada en la **Investigación-Acción Educativa (IAE)** para la enseñanza del álgebra lineal en el programa de Ingeniería Agropecuaria, con un enfoque aplicado a la **ciencia de datos y optimización de procesos agrícolas**. El diseño curricular se fundamenta en:  
+
 1. Las necesidades del sector agropecuario colombiano.  
 2. Los conceptos esenciales de machine learning según Aurélien Géron (*Hands-On Machine Learning*).  
 3. Un modelo de **mejora continua** mediante ciclos de reflexión-acción.  
 
 El objetivo es **reducir la brecha entre la formación académica y las demandas reales del agro**, utilizando el álgebra lineal como herramienta para la toma de decisiones basada en datos.  
 
----  
+  
 
 ## **1. Introducción: Contexto y Justificación**  
 **Problema identificado:**  
@@ -30,25 +34,26 @@ El objetivo es **reducir la brecha entre la formación académica y las demandas
 
 **Solución propuesta:**  
 - Un curso de álgebra lineal con enfoque en **machine learning aplicado al agro**, estructurado bajo **IAE** para mejoras iterativas.  
-- Vinculación con problemas reales del **Bajo Cauca antioqueño** (cultivos de cacao, palma, ganadería).  
+- Vinculación con problemas reales del **Bajo Cauca antioqueño** (cultivos de Arroz).  
+  
 
----  
+## **2. Marco Teórico: Fundamentos Pedagógicos y Técnicos**   
 
-## **2. Marco Teórico: Fundamentos Pedagógicos y Técnicos**  
-### **2.1. Investigación-Acción Educativa (IAE)**  
+### **2.1. Investigación-Acción Educativa (IAE)**    
+
 - Modelo de **Kemmis & McTaggart** (ciclos de planificación-acción-observación-reflexión).  
 - Adaptación al contexto universitario mediante **evaluación formativa continua**.  
 
 ### **2.2. Álgebra Lineal para Ciencia de Datos (Según Aurélien Géron)**  
 - **Vectores y matrices** en datasets agrícolas (rendimiento, clima, suelo).  
 - **Sistemas de ecuaciones lineales** para modelar balances nutricionales.  
-- **PCA y SVD** en análisis de imágenes satelitales y predicción de cosechas.  
+- **(Análisis de Componentes Principales) (PCA) y Descomposición en Valores Singulares (SVD)** en análisis de imágenes satelitales y predicción de cosechas.  
 
 ### **2.3. Vinculación con el Sector Agropecuario**  
 - **Casos de estudio** con productores locales.  
-- **Herramientas computacionales** (Python, Scikit-Learn, TensorFlow).  
+- **Herramientas computacionales** (Python, Scikit-Learn, TensorFlow Keras).  
 
----  
+  
 
 ## **3. Metodología: Diseño del Curso con Enfoque IAE**  
 ### **3.1. Fases de Implementación**  
@@ -79,7 +84,7 @@ El objetivo es **reducir la brecha entre la formación académica y las demandas
 ---  
 
 ## **5. Conclusiones y Proyecciones**  
-- La **IAE permite ajustar el currículo en tiempo real** según las necesidades del agro.  
+- La **IAE permite ajustar el currículo en tiempo real** según las necesidades del agro (DeeepSeek y ChatGPT).  
 - El **álgebra lineal aplicada a machine learning** es clave para la agricultura 4.0.  
 - **Próximos pasos:**  
   - Formalizar alianzas con cooperativas agrícolas.  
@@ -96,11 +101,11 @@ El objetivo es **reducir la brecha entre la formación académica y las demandas
 - Combina **educación, tecnología y desarrollo rural**.  
 - Ejemplo de **investigación aplicada con impacto social**.  
 
----  
+  
 **Referencias:**  
 - Géron, A. (2022). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*. O’Reilly.  
-- Kemmis, S., & McTaggart, R. (1988). *The Action Research Planner*. Deakin University.  
-- Datos sectoriales: Fedepalma, SAC, Ministerio de Agricultura Colombia.  
+- Kemmis, S., & McTaggart, R. (1988). *The Action Research Planner*. Deakin University. Recuperar en: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://educons.edu.rs/wp-content/uploads/2020/05/2014-The-Action-Research-Planner.pdf   
+- [Agronet](https://www.agronet.gov.co/Paginas/inicio.aspx).  
 
----  
+  
 **¡Esperamos contribuir al diálogo sobre educación transformadora en el congreso!** 

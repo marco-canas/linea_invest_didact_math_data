@@ -6,9 +6,13 @@
 
  
 - Título del trabajo:  
-  *"Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola"*  
+  *"Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola"*   
+
 - Autor: Marco Julio Cañas Campillo.   
-  - Nombre(s) y afiliación institucional (Universidad de Antioquia, Facultad de Ciencias Agrarias, Campus Caucasia).  
+  - Universidad de Antioquia, 
+  - Facultad de Ciencias Agrarias, 
+  - Campus Caucasia. 
+  - Docente Ocasional de Tiempo Completo).  
 - Congreso:  
   - **HUMANOS-XXI 2025** (7-9 de octubre, modalidad virtual).  
 - Palabras clave (5-6):  
