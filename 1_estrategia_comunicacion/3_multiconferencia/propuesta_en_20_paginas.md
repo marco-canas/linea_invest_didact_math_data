@@ -1,20 +1,16 @@
-
-
-
-
-# Artículo Reflexivo - [Congreso Humanos XXI](https://fundacioniai.org/humanosxxi/)  
-
  
  
 # *"Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola"*   
 
 - Autor: Marco Julio Cañas Campillo.   
   - Universidad de Antioquia, 
-  - Facultad de Ciencias Agrarias, 
+  - Dirección de Regionalización
+  - Profesor para Facultad de Ciencias Agrarias, 
   - Campus Caucasia. 
-  - Docente Ocasional de Tiempo Completo.  
+  - Docente Ocasional de Tiempo Completo. 
+  - Investigador del Grupo GIBACC 
 - Congreso:  
-  - **HUMANOS-XXI 2025** (7-9 de octubre, modalidad virtual).  
+  - [Congreso Humanos XXI](https://fundacioniai.org/humanosxxi/)  (7-9 de octubre, modalidad virtual).  
 
 
 
@@ -28,14 +24,14 @@ El diseño sigue ciclos iterativos de **planificación-acción-observación-refl
 
  vinculando:    
 
-1. **Contenidos teóricos** (vectores, matrices, sistemas lineales, Análisis de Componentes principales (PCA) y Descomposición en Valores Singulares (SVD)) con problemas reales del **Bajo Cauca antioqueño** (ej: análisis de rendimiento de cultivos, logística de distribución).  
+1. **Contenidos teóricos** (vectores, matrices, sistemas lineales, Análisis de Componentes principales (PCA) y Descomposición en Valores Singulares (SVD)) con problemas reales del **Bajo Cauca antioqueño** (ej: análisis de rendimiento de cultivos de arroz).  
 2. **Herramientas computacionales** (Python, Scikit-Learn, TensorFlow, Keras) para implementar modelos predictivos simples.  
 3. **Evaluación continua** mediante portafolios estudiantiles y proyectos aplicados con agricultores locales.  
 
 **Resultados esperados:**    
 
 1. **Impacto pedagógico:** Mejora en la pertinencia curricular y motivación estudiantil al conectar las matemáticas con desafíos agroindustriales.  
-2. **Impacto social:** Soluciones accesibles para pequeños productores (ej: predicción de cosechas mediante regresión lineal).  
+2. **Impacto social:** Soluciones accesibles para pequeños productores (ej: predicción de cosechas de arroz mediante modelos de machine learning y deep learling).  
 3. **Divulgación:** Publicación de hallazgos en la [*Revista Transdisciplinary Science*](https://fundacioniai.org/Journal/) (en caso de selección) y réplica del modelo en otras ingenierías con enfoque rural.  
 
 **Contribución a HUMANOS-XXI:**  
@@ -44,7 +40,7 @@ Este trabajo se alinea con los ejes temáticos del congreso:
 - *"Por un sistema de educación que realmente forme profesionales"*, al demostrar cómo la IAE mejora la empleabilidad de los ingenieros agropecuarios.  
 - *"Ciencia transdisciplinar para el desarrollo"*, al integrar matemáticas, agronomía y tecnología con un enfoque de **justicia social** para el campo colombiano.  
 
-**Palabras clave:** Educación en ingeniería, Álgebra lineal aplicada, Ciencia de datos agropecuaria, Investigación-Acción Educativa, Transdisciplinariedad, Innovación pedagógica.  
+**Palabras clave:** Educación en ingeniería, Álgebra lineal aplicada, Ciencia de datos, Ingeniería agropecuaria, Investigación-Acción Educativa, Transdisciplinariedad, Innovación pedagógica.  
 
 
 ## **3. Introducción**   
@@ -53,9 +49,9 @@ Este trabajo se alinea con los ejes temáticos del congreso:
 
 **3.1. Contexto y justificación**
 
-En el ámbito de la educación en ingeniería agropecuaria, persiste una problemática crítica: existe una marcada desconexión entre la enseñanza tradicional del álgebra lineal y las demandas actuales del sector agropecuario en la era del big data [(Ricardo, 2021)](https://www.redalyc.org/journal/4757/475769312007/html/). Esta brecha se manifiesta particularmente en regiones como el Bajo Cauca antioqueño, donde los ingenieros agropecuarios requieren herramientas analíticas avanzadas para optimizar procesos productivos, pero carecen de formación en métodos cuantitativos aplicables a problemas reales del sector.
+En el ámbito de la educación en ingeniería agropecuaria, persiste una problemática crítica: existe una marcada desconexión entre la enseñanza tradicional del álgebra lineal y las demandas actuales del sector agropecuario en la era la big data [(Ricardo, 2021)](https://www.redalyc.org/journal/4757/475769312007/html/). Esta brecha se manifiesta particularmente en regiones como el Bajo Cauca antioqueño, donde los ingenieros agropecuarios requieren herramientas analíticas avanzadas para optimizar procesos productivos, pero carecen de formación en métodos cuantitativos aplicables a problemas reales del sector.
 
-La enseñanza convencional del álgebra lineal en programas de ingeniería suele limitarse a desarrollos abstractos y ejercicios descontextualizados, sin vincularse con las necesidades específicas de la agricultura moderna. Esta situación contrasta con las exigencias del mercado laboral, donde la capacidad para analizar datos de cultivos, predecir rendimientos y optimizar recursos mediante técnicas de machine learning y Deep Learning se ha convertido en una competencia fundamental [(Álvarez, 2023)](https://dialnet.unirioja.es/servlet/tesis?codigo=360979).
+La enseñanza convencional del álgebra lineal en programas de ingeniería suele limitarse a desarrollos abstractos y ejercicios descontextualizados, sin vincularse con las necesidades específicas de la agricultura moderna. Esta situación contrasta con las exigencias del mercado laboral, donde la capacidad para analizar datos de cultivos, predecir rendimientos y optimizar recursos mediante técnicas de Machine Learning y Deep Learning se ha convertido en una competencia fundamental [(Álvarez, 2023)](https://dialnet.unirioja.es/servlet/tesis?codigo=360979).
 
 Esta propuesta adquiere especial relevancia para el congreso HUMANOS-XXI al alinearse con sus ejes temáticos centrales:
 
@@ -63,7 +59,7 @@ Esta propuesta adquiere especial relevancia para el congreso HUMANOS-XXI al alin
 
 2. *"Ciencia transdisciplinar para el desarrollo"*: La integración de álgebra lineal, ciencia de datos y agronomía representa un caso paradigmático de cómo la convergencia disciplinar puede generar soluciones innovadoras para desafíos agrícolas concretos.
 
-Además, la propuesta contribuye a la sobrevivencia humana en un sentido amplio, pues la optimización de procesos agrícolas mediante herramientas matemáticas resulta crucial para garantizar la seguridad alimentaria en un contexto de cambio climático y crecimiento poblacional [(FAO, 2022)](https://www.fao.org/sustainability/es). En regiones como el Bajo Cauca, donde la agricultura constituye el principal sustento económico, esta aproximación adquiere una dimensión social adicional al potencialmente mejorar los ingresos de pequeños y medianos productores.
+Además, la propuesta contribuye a la sobrevivencia humana en un sentido amplio, pues la optimización de procesos agrícolas mediante herramientas matemáticas resulta crucial para garantizar la seguridad alimentaria en un contexto de cambio climático y crecimiento poblacional [(FAO, 2022)](https://www.fao.org/sustainability/es). En regiones como el Bajo Cauca, donde la agricultura constituye el principal sustento económico, esta aproximación adquiere una dimensión social adicional al potencialmente mejorar los ingresos de pequeños y medianos productores. Al mostrar la correlaciión entre el clima y el rendimiento de los cultivos de arroz. 
 
 **3.2. Objetivos**
 
@@ -71,7 +67,7 @@ Este trabajo reflexivo se plantea dos objetivos fundamentales:
 
 1. Diseñar un curso innovador de álgebra lineal basado en Investigación-Acción Educativa (IAE) que integre:
    - Los fundamentos matemáticos esenciales según estándares internacionales
-   - Las técnicas de machine learning aplicables al sector agropecuario (Géron, 2022)
+   - Las técnicas de Machine Learning y Deep Learning aplicables al sector agropecuario (Géron, 2022 y [Kamilaris, 2028](https://www.sciencedirect.com/science/article/pii/S0168169917308803))
    - Problemas reales identificados en colaboración con productores del Bajo Cauca
 
 2. Evaluar el impacto de esta innovación curricular en:
@@ -417,7 +413,6 @@ El congreso HUMANOS-XXI representa una oportunidad para:
 
 Aquí tienes las referencias completas en formato APA 7ª edición, ajustadas a los lineamientos del **Congreso Humanos XXI** y con los vínculos proporcionados en tu artículo:
 
----
 
 ## **8. Referencias**  
 
@@ -431,7 +426,9 @@ Latorre, A. (2007). *La investigación-acción: Conocer y cambiar la práctica e
 ### **Artículos científicos**  
 Álvarez, J. (2023). *Educación matemática en ingenierías agrícolas: Un enfoque desde la ciencia de datos* [Tesis doctoral, Universidad de La Rioja]. Dialnet. https://dialnet.unirioja.es/servlet/tesis?codigo=360979  
 
-Ricardo, M. (2021). *Bridging the gap between linear algebra and agricultural data science: A case study in Colombian engineering education*. *Revista Latinoamericana de Investigación en Matemática Educativa*, *14*(2), 45-67. https://www.redalyc.org/journal/4757/475769312007/html/  
+Ricardo, M. (2021). *Bridging the gap between linear algebra and agricultural data science: A case study in Colombian engineering education*. *Revista Latinoamericana de Investigación en Matemática Educativa*, *14*(2), 45-67. https://www.redalyc.org/journal/4757/475769312007/html/    
+
+[Kamilaris, 2028](https://www.sciencedirect.com/science/article/pii/S0168169917308803)
 
 ### **Documentos institucionales**  
 Ministerio de Agricultura y Desarrollo Rural de Colombia. (2023). *Plan Nacional de Desarrollo Agropecuario 2022-2026*. https://www.minagricultura.gov.co  
@@ -448,27 +445,5 @@ Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM). (2023). 
 
 Sistema de Información Agropecuaria (Agronet). (2023). *Estadísticas agrícolas por municipio*. https://www.agronet.gov.co  
 
----
 
-### **Notas sobre el formato:**  
-1. **Hipervínculos**: Todos los DOI o URLs están activos y verificados (sin "chrome-extension://").  
-2. **Orden**: Las referencias se organizan alfabéticamente por apellido del primer autor.  
-3. **Alineación**: Sangría francesa (0.5 pulgadas) para cada entrada, como exige APA.  
-4. **Congruencia**: Cada referencia citada en el cuerpo del artículo aparece en esta lista.  
-
-**Recomendación adicional**:  
-- Incluye el **manual de estilo del congreso** como referencia si lo mencionas explícitamente:  
-Fundación IAI. (2025). *Guía para autores – Congreso Humanos XXI*. https://fundacioniai.org/humanosxxi/  
-
-
-
-## **9. Anexos** (opcional)  
-- Ejemplos de actividades IAE en el aula.  
-- Datos de encuestas a estudiantes.  
-
----  
-### **Notas finales**  
-- **Extensión**: Ajustar el contenido para cumplir con 15-20 páginas.  
-- **Formato**: Usar la plantilla del congreso (disponible en [fundacioniai.org/humanosxxi/](https://fundacioniai.org/humanosxxi/)) .  
-- **Envío**: Seguir el proceso de doble evaluación (técnica y científica) .  
 
