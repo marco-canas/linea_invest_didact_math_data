@@ -17,21 +17,21 @@
 ## **2. Resumen** 
 
 **Objetivo:**  
-Este trabajo reflexivo propone un modelo innovador de curso de álgebra lineal basado en **Investigación-Acción Educativa (IAE)**, diseñado para el programa de Ingeniería Agropecuaria de la Universidad de Antioquia (Campus Caucasia). El objetivo central es **cerrar la brecha entre la formación académica y las demandas reales del sector agropecuario colombiano**, integrando fundamentos de ciencia de datos (según Aurélien Géron) con aplicaciones prácticas en optimización de procesos agrícolas.  
+Este trabajo reflexivo propone un modelo innovador de curso de álgebra lineal basado en **Investigación-Acción Educativa (IAE)**, diseñado para el programa de Ingeniería Agropecuaria de la Universidad de Antioquia (Campus Caucasia). El objetivo central es **cerrar la brecha entre la formación académica y las demandas reales del sector agropecuario colombiano**, integrando fundamentos de ciencia de datos [(Géron, 2022)](https://github.com/ageron/handson-ml3) con aplicaciones prácticas en optimización de procesos agrícolas.  
 
 **Metodología:**  
-El diseño sigue ciclos iterativos de **planificación-acción-observación-reflexión** ([Kemmis & McTaggart](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://educons.edu.rs/wp-content/uploads/2020/05/2014-The-Action-Research-Planner.pdf)),  
+El diseño sigue ciclos iterativos de **planificación-acción-observación-reflexión** ([Kemmis & McTaggart, 2014](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://educons.edu.rs/wp-content/uploads/2020/05/2014-The-Action-Research-Planner.pdf)),  
 
  vinculando:    
 
 1. **Contenidos teóricos** (vectores, matrices, sistemas lineales, Análisis de Componentes principales (PCA) y Descomposición en Valores Singulares (SVD)) con problemas reales del **Bajo Cauca antioqueño** (ej: análisis de rendimiento de cultivos de arroz).  
-2. **Herramientas computacionales** (Python, Scikit-Learn, TensorFlow, Keras) para implementar modelos predictivos simples.  
-3. **Evaluación continua** mediante portafolios estudiantiles y proyectos aplicados con agricultores locales.  
+2. **Herramientas computacionales** (Python, Scikit-Learn, TensorFlow, Keras, Visual Studio Code y Google Colab) para implementar modelos predictivos simples.  
+3. **Evaluación continua** mediante portafolios estudiantiles y proyectos aplicados con agricultores locales, quices, parciales, videos y participación en [el espacio de discusión en GitHub](https://github.com/marco-canas/vector_geometry_and_linear_algebra/discussions/1).  
 
 **Resultados esperados:**    
 
 1. **Impacto pedagógico:** Mejora en la pertinencia curricular y motivación estudiantil al conectar las matemáticas con desafíos agroindustriales.  
-2. **Impacto social:** Soluciones accesibles para pequeños productores (ej: predicción de cosechas de arroz mediante modelos de machine learning y deep learling).  
+2. **Impacto social:** Soluciones accesibles para pequeños productores (ej: predicción de cosechas de arroz mediante modelos de machine learning y deep learning).  
 3. **Divulgación:** Publicación de hallazgos en la [*Revista Transdisciplinary Science*](https://fundacioniai.org/Journal/) (en caso de selección) y réplica del modelo en otras ingenierías con enfoque rural.  
 
 **Contribución a HUMANOS-XXI:**  
