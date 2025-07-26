@@ -301,7 +301,8 @@ En los primeros ciclos de implementación del curso basado en **Investigación-A
 
 ### **6.3. Discusión Crítica**  
 
-#### **Contribuciones a la Educación en Ingeniería**  
+#### **Contribuciones a la Educación en Ingeniería**    
+
 - **Superación de la brecha teoría-práctica**: Los resultados validan que la IAE —con su énfasis en ciclos reflexivos— es efectiva para conectar contenidos abstractos con necesidades sectoriales, coincidiendo con hallazgos de Elliott (1991) en contextos técnicos.  
 - **Empleabilidad**: El desarrollo de habilidades en **Python y machine learning** posicionó a los estudiantes como candidatos competitivos en empleos agrícolas 4.0 (ej.: analistas en *Agrosavia*).  
 
