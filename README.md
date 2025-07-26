@@ -1,4 +1,4 @@
-# L�nea Investigativa: Pedagog�a y Did�ctica de la Matem�tica
+# Línea Investigativa: Pedagog�a y Did�ctica de la Matem�tica
 
 Este repositorio contiene la documentaci�n de mi l�nea investigativa en el �rea de la pedagog�a y did�ctica de la matem�tica. Se incluyen referencias bibliogr�ficas, participaciones en eventos acad�micos, conceptos matem�ticos clave y logros alcanzados en la ense�anza.
 
@@ -13,7 +13,8 @@ Este repositorio contiene la documentaci�n de mi l�nea investigativa en el �
 
 Se aceptan sugerencias y colaboraciones para mejorar este repositorio.  
 
-GitHub puede ser una herramienta muy valiosa en tu investigación en pedagogía y didáctica de la matemática. Estas son varias formas en las que puede ayudarte:  
+GitHub puede ser una herramienta muy valiosa en tu investigación en pedagogía y didáctica de la matemática.   
+Estas son varias formas en las que puede ayudarte:  
 
 
 1. **Difusión de Recursos Educativos**: Puedes compartir tus materiales, como guías, ejercicios, cuadernos de Jupyter, y actividades pedagógicas, de forma pública en GitHub. Esto facilita que otros docentes e investigadores en pedagogía accedan a ellos, los prueben en sus propias aulas y te den retroalimentación, enriqueciendo tus prácticas y contenidos. También puedes crear repositorios específicos para cursos o unidades didácticas, organizando los recursos por temas o módulos.
