@@ -163,21 +163,7 @@ Ejemplos concretos de esta articulación incluyen:
 
 Esta aproximación ha mostrado efectividad en contextos similares, como lo demuestra [el proyecto MathAgro de la Universidad Nacional de Colombia (2021)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://plei2034.unal.edu.co/fileadmin/Documentos/Plan_Global_de_Desarrollo_2019-2021.pdf), que logró incrementar en 35% la retención de conceptos matemáticos al vincularlos con problemas agronómicos concretos.
 
-## **5. Metodología** (3-4 páginas)    
-
-### **5.1. Diseño del Curso con Enfoque IAE**    
-
-- **Fases**:  
-  1. **Diagnóstico**: Encuestas a estudiantes y agricultores del Bajo Cauca.  
-  2. **Implementación**: Módulos prácticos con Python y Scikit-Learn .  
-  3. **Evaluación**: Portafolios estudiantiles y proyectos aplicados.  
-
-
-
-### **5.2. Instrumentos**  
-- **Herramientas**:  
-  - Plataformas GitHub (*Hands-On ML* de Géron) .  
-  - Datos abiertos del sector agropecuario colombiano.  
+ 
 
 ## **5. Metodología**  
 
@@ -263,32 +249,25 @@ El diseño metodológico se estructura bajo los principios de la **Investigació
 
 Para la versión final del artículo, se incluirán gráficos de flujo metodológico y ejemplos concretos de proyectos estudiantiles.
 
-## **6. Resultados y Discusión** (3-4 páginas)  
-### **6.1. Hallazgos Preliminares**  
-- Ejemplo: Estudiantes lograron predecir rendimientos de cultivos usando regresión lineal (caso: cacao en Caucasia).  
 
-### **6.2. Impacto en la Comunidad**  
-- **Académico**: Mejora en las competencias analíticas de los estudiantes.  
-- **Social**: Soluciones accesibles para pequeños agricultores .  
+## **6. Resultados Esperados y Discusión**  
 
-## **6. Resultados y Discusión**  
+### **6.1. Resultados Esperador Preliminares**  
 
-### **6.1. Hallazgos Preliminares**  
-
-Los primeros ciclos de implementación del curso basado en **Investigación-Acción Educativa (IAE)** evidenciaron resultados prometedores en tres dimensiones clave:  
+En los primeros ciclos de implementación del curso basado en **Investigación-Acción Educativa (IAE)** esperamos resultados prometedores en tres dimensiones clave:  
 
 #### **1. Adquisición de Competencias Técnicas**  
 - **Predicción de rendimientos agrícolas**:  
-  - Estudiantes desarrollaron modelos de regresión lineal multivariada para estimar la producción de cacao en Caucasia, utilizando datos históricos de precipitación, temperatura y nutrientes del suelo (R² = 0.82 en validación cruzada).  
-  - **Ejemplo práctico**: Un equipo logró reducir el error de predicción a **12%** frente a métodos tradicionales usados por agricultores (validado con datos reales de la *Asociación de Cacaoteros del Bajo Cauca*).  
+  - Esperamos qie los estudiantes desarrollen modelos de regresión lineal multivariada para estimar la producción de arroz en Caucasia, utilizando datos históricos de precipitación, temperatura y nutrientes del suelo (R² = 0.82 en validación cruzada).  
+  - **Ejemplo práctico de logro esperado**: Que un equipo logre reducir el error de predicción a **12%** frente a métodos tradicionales usados por agricultores (validado con datos reales de la *Asociación de Cacaoteros del Bajo Cauca*).  
 
 - **Optimización de recursos**:  
   - Aplicación de sistemas de ecuaciones lineales para minimizar costos en mezclas de fertilizantes, logrando ahorros del **18-22%** en pruebas piloto con fincas arroceras.  
 
 #### **2. Cambios en la Percepción Estudiantil**  
 - Encuestas post-curso (n=25) mostraron:  
-  - **Aumento del 65%** en la percepción de utilidad del álgebra lineal para su formación profesional.  
-  - **85% de los estudiantes** prefirieron el enfoque IAE frente a clases tradicionales, destacando la vinculación con problemas reales.  
+  - **Esperamoe un aumento del 65%** en la percepción de utilidad del álgebra lineal para su formación profesional.  
+  - Y esperamos que un **85% de los estudiantes** prefieran el enfoque IAE frente a clases tradicionales, destacando la vinculación con problemas reales.  
 
 #### **3. Productos Tangibles**  
 - **Repositorio GitHub público** con 15 proyectos aplicados, incluyendo:  
@@ -301,8 +280,8 @@ Los primeros ciclos de implementación del curso basado en **Investigación-Acci
 
 #### **Impacto Académico**  
 - **Mejora en indicadores de aprendizaje**:  
-  - La tasa de aprobación del curso aumentó del **70% al 92%** respecto a semestres anteriores.  
-  - Los portafolios estudiantiles demostraron dominio en:  
+  - Esperamos que la tasa de aprobación del curso aumente del **70% al 92%** respecto a semestres anteriores.  
+  - Que los portafolios estudiantiles demuestren dominio en:  
     - Manipulación de datasets agropecuarios con Python (100% de los estudiantes).  
     - Interpretación de resultados matriciales (ej.: autovalores en análisis de suelos) en contextos reales (78%).  
 
@@ -316,7 +295,7 @@ Los primeros ciclos de implementación del curso basado en **Investigación-Acci
     2. Un sistema de **optimización lineal** para rutas de transporte de cosechas (disminuyó costos de logística en **20%**).  
 
 - **Capacitación comunitaria**:  
-  - Estudiantes y docentes dictaron 4 talleres prácticos para **42 agricultores** sobre interpretación de datos climáticos y uso básico de herramientas digitales.  
+  - Esperamos que los estudiantes y y el docente Marco Julio Cañas dicten talleres prácticos para **agricultores** sobre interpretación de datos climáticos y uso básico de herramientas digitales.  
 
 ---
 
