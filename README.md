@@ -5,7 +5,7 @@ Este repositorio contiene la documentaci�n de mi l�nea investigativa en el �
 ## Estructura del repositorio
 
 - `/referentes_bibliograficos/`: Contiene las lecturas y fuentes consultadas.
-- `/eventos_academicos/`: Documenta mi participaci�n en eventos acad�micos.
+- `/eventos_academicos/`: Documenta mi participación en eventos académicos.
 - `/conceptos_matematicos/`: Desarrolla conceptos matem�ticos relevantes.
 - `/logros_didactica/`: Relata los logros en la ense�anza de la matem�tica.
 
