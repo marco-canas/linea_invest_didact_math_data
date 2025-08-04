@@ -1,9 +1,9 @@
-[Congreso Internacional en Ciencias Agroambientales](https://www.ucundinamarca.edu.co/index.php/vii-congreso-ciencias-agroambientales)   
+# [Congreso Internacional en Ciencias Agroambientales](https://www.ucundinamarca.edu.co/index.php/vii-congreso-ciencias-agroambientales)   
 
 
 Prompt para el diseño de la propuesta investigativa  
 
-Dame una propuesta de ponencia adecuada para el VII Congreso Internacional en ciencias agroambientales https://www.ucundinamarca.edu.co/index.php/vii-congreso-ciencias-agroambientales. La propuesta que quiero presentar a este congreso consiste en la constitución de un modelo de Deep Learning con redes neuronales LSTD que permita predecir rendimientos en cultivos de cacao en Caucasia - Antioquia en función de los datos meteorológicos de este municipio.    
+Dame una propuesta de ponencia adecuada para el VII Congreso Internacional en ciencias agroambientales https://www.ucundinamarca.edu.co/index.php/vii-congreso-ciencias-agroambientales. La propuesta que quiero presentar a este congreso consiste en la constitución de un modelo de Deep Learning con redes neuronales LSTM que permita predecir rendimientos en cultivos de cacao en Caucasia - Antioquia en función de los datos meteorológicos de este municipio.    
 
 
 # **Propuesta de Ponencia para el VII Congreso Internacional en Ciencias Agroambientales**  
@@ -46,8 +46,8 @@ Desarrollar un modelo de Deep Learning con redes LSTM para predecir el rendimien
 ## **4. Metodología**  
 
 ### **4.1. Datos**  
-- **Datos meteorológicos**: Obtenidos del IDEAM (Instituto de Hidrología, Meteorología y Estudios Ambientales) y estaciones locales.  
-- **Datos de rendimiento**: Registros históricos de la Federación Nacional de Cacaoteros (Fedecacao) y cooperativas locales.  
+- **Datos meteorológicos**: Obtenidos del [IDEAM](https://www.datos.gov.co/) (Instituto de Hidrología, Meteorología y Estudios Ambientales) y estaciones locales. [Nasa Power](https://power.larc.nasa.gov/)  
+- **Datos de rendimiento**: Registros históricos de la Federación Nacional de Cacaoteros [(Fedecacao)](https://www.fedecacao.com.co/) y cooperativas locales.  
 
 ### **4.2. Procesamiento**  
 - **Limpieza y normalización**: Uso de Pandas y Scikit-learn.  
@@ -112,9 +112,9 @@ El modelo propuesto puede revolucionar la planificación agrícola en Caucasia y
 **¡Gracias por la oportunidad de contribuir al VII Congreso!**  
 
 ---  
-**Autor:** [Tu Nombre]  
-**Afiliación:** [Tu Universidad/Institución]  
-**Contacto:** [tu@email.com] | [+57 XXX XXX XXXX]  
+**Autor:** Marco Julio Cañas Campillo  
+**Afiliación:** [Universidad de Antioquia / Campus Caucasia]  
+**Contacto:** marco.canas@udea.edu.co | +57 301 239 11 37  
 
 ---  
 **Nota:** Esta propuesta puede adaptarse para incluir colaboraciones con agrónomos locales o entidades como Agrosavia.
