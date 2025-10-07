@@ -5,7 +5,9 @@
 Dame un programa que defina mi actividad investigativa para enriquecimiento de la docencia y la extensión a través de la investigación en los siguientes frentes: desarrollo del pensamiento crítico y el pensamiento computacional para el aprendizaje del cálculo diferencial, integral, vectorial y de varias variables, la geometría vectorial, el álgebra lineal (para la formación en ciencias agrarias con Python para la ciencia de datos), las matemáticas I y II para fundamentación matemática de los estudiantes de la Facultad de Ciencias Económicas y la formación en Machine Learning y Deep Learning para estudiantes de G-Líderes del programa de Administración de empresas de la Universidad de Antioquia. También la investigación en la aplicación el algoritmo Sarimax para la predicción de epidemias de dengue en función de datos meteorológicos en Caucasia - Antioquia.   
 
 
-Perfecto — te entrego un **Programa de Actividad Investigativa** pensado para enriquecer la docencia y la extensión en los frentes que indicas. Lo organizo en: objetivos, líneas de investigación (con proyectos ejemplo), actividades docentes y de extensión, metodología y herramientas (stack técnico), cronograma por fases, productos esperados y métricas/indicadores de éxito. Puedes tomarlo como base para un plan institucional, una postulación a convocatoria o para presentar ante tu facultad.
+# **Programa de Actividad Investigativa**   
+
+Programa pensado para enriquecer la docencia y la extensión en los frentes que indicas. Lo organizo en: objetivos, líneas de investigación (con proyectos ejemplo), actividades docentes y de extensión, metodología y herramientas (stack técnico), cronograma por fases, productos esperados y métricas/indicadores de éxito. Puedes tomarlo como base para un plan institucional, una postulación a convocatoria o para presentar ante tu facultad.
 
 # Programa de Actividad Investigativa: “Matemáticas Computacionales y Ciencia de Datos para la Docencia, la Extensión y la Predicción Epidemiológica (MCC-Data)”
 

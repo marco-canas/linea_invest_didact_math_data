@@ -20,12 +20,12 @@
 Este trabajo reflexivo propone un modelo innovador de curso de álgebra lineal basado en **Investigación-Acción Educativa (IAE)**, diseñado para el programa de Ingeniería Agropecuaria de la Universidad de Antioquia (Campus Caucasia). El objetivo central es **cerrar la brecha entre la formación académica y las demandas reales del sector agropecuario colombiano**, integrando fundamentos de ciencia de datos [(Géron, 2022)](https://github.com/ageron/handson-ml3) con aplicaciones prácticas en optimización de procesos agrícolas.  
 
 **Metodología:**  
-El diseño sigue ciclos iterativos de **planificación-acción-observación-reflexión** ([Kemmis & McTaggart, 2014](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://educons.edu.rs/wp-content/uploads/2020/05/2014-The-Action-Research-Planner.pdf)),  
+El diseño sigue ciclos iterativos de **planificación-acción-observación-reflexión** ([Kemmis & McTaggart, 2014](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.uv.mx/rmipe/files/2019/07/La-investigacion-accion-conocer-y-cambiar-la-practica-educativa.pdf)),  
 
  vinculando:    
 
 1. **Contenidos teóricos** (vectores, matrices, sistemas lineales, Análisis de Componentes principales (PCA) y Descomposición en Valores Singulares (SVD)) con problemas reales del **Bajo Cauca antioqueño** (ej: análisis de rendimiento de cultivos de arroz).  
-2. **Herramientas computacionales** (Python, Scikit-Learn, TensorFlow, Keras, Visual Studio Code y Google Colab) para implementar modelos predictivos simples.  
+2. **Herramientas computacionales** (Python, Scikit-Learn, TensorFlow, Keras, Visual Studio Code y Google Colab, PyTorch de Meta) para implementar modelos predictivos simples.  
 3. **Evaluación continua** mediante portafolios estudiantiles y proyectos aplicados con agricultores locales, quices, parciales, videos y participación en [el espacio de discusión en GitHub](https://github.com/marco-canas/vector_geometry_and_linear_algebra/discussions/1).  
 
 **Resultados esperados:**    
