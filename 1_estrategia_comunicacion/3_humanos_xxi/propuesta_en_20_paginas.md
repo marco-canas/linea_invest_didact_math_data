@@ -1,5 +1,6 @@
  
- 
+[Registro de asistencia a asesoría](https://forms.gle/FNg7WMenKvcgEh2T6)  
+
 # *"Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola"*   
 
 - Autor: Marco Julio Cañas Campillo.   
@@ -59,7 +60,7 @@ Esta propuesta adquiere especial relevancia para el congreso HUMANOS-XXI al alin
 
 2. *"Ciencia transdisciplinar para el desarrollo"*: La integración de álgebra lineal, ciencia de datos y agronomía representa un caso paradigmático de cómo la convergencia disciplinar puede generar soluciones innovadoras para desafíos agrícolas concretos.
 
-Además, la propuesta contribuye a la sobrevivencia humana en un sentido amplio, pues la optimización de procesos agrícolas mediante herramientas matemáticas resulta crucial para garantizar la seguridad alimentaria en un contexto de cambio climático y crecimiento poblacional [(FAO, 2022)](https://www.fao.org/sustainability/es). En regiones como el Bajo Cauca, donde la agricultura constituye el principal sustento económico, esta aproximación adquiere una dimensión social adicional al potencialmente mejorar los ingresos de pequeños y medianos productores. Al mostrar la correlaciión entre el clima y el rendimiento de los cultivos de arroz. 
+Además, la propuesta contribuye a la sobrevivencia humana en un sentido amplio, pues la optimización de procesos agrícolas mediante herramientas matemáticas resulta crucial para garantizar la seguridad alimentaria en un contexto de cambio climático y crecimiento poblacional [(FAO, 2022)](https://www.fao.org/sustainability/es). En regiones como el Bajo Cauca, donde la agricultura constituye el principal sustento económico, esta aproximación adquiere una dimensión social adicional al potencialmente mejorar los ingresos de pequeños y medianos productores. Al mostrar la correlación entre el clima y el rendimiento de los cultivos de arroz. 
 
 **3.2. Objetivos**
 
@@ -91,10 +92,10 @@ En el contexto de educación superior, la IAE adquiere especial relevancia para 
 - Generar conocimiento situado a partir de problemas reales
 
 En nuestra propuesta, los ciclos de IAE se implementan mediante:
-1. **Diagnóstico participativo**: Encuestas a estudiantes y productores para identificar necesidades formativas
-2. **Diseño colaborativo**: Co-construcción de actividades con docentes del área agronómica
-3. **Implementación monitorizada**: Registro sistemático de dificultades de aprendizaje
-4. **Evaluación formativa**: Retroalimentación continua para ajustar contenidos
+1. **Diagnóstico participativo**: Encuestas a estudiantes y productores para identificar necesidades formativas.
+2. **Diseño colaborativo**: Co-construcción de actividades con docentes del área agronómica. Hemos trabajado con la Profesora maira Mercado (Ingeniera Agronoma). 
+3. **Implementación monitorizada**: Registro sistemático de dificultades de aprendizaje. (Manejo del lenguaje simbólico del Álgebra lineal y el sentido)
+4. **Evaluación formativa**: Retroalimentación continua para ajustar contenidos. 
 
 Este modelo ha demostrado eficacia en estudios similares, como el de López (2020) en ingenierías agrícolas mexicanas, donde redujo en 40% la deserción en cursos matemáticos al vincularlos con aplicaciones concretas. OECD (2019), Educación superior en México: Resultados y relevancia para el mercado laboral, OECD Publishing, Paris, https://doi.org/10.1787/a93ed2b7-es.
 
