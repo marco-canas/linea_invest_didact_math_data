@@ -1,4 +1,4 @@
-Perfecto, Marco Julio 🌱 Aquí tienes una **síntesis en 7 diapositivas** de tu artículo *“Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola”*, lista para usar en tu presentación en el **Congreso Humanos XXI (7–9 de octubre)**.
+# *“Investigación-Acción Educativa (IAE) en la Enseñanza del Álgebra Lineal para Ingeniería Agropecuaria: Un Enfoque hacia la Ciencia de Datos y la Optimización Agrícola”*, lista para usar en tu presentación en el **Congreso Humanos XXI (7–9 de octubre)**.
 
 ---
 
@@ -16,7 +16,7 @@ Integrar el álgebra lineal con ciencia de datos y problemas reales del sector a
 
 ---
 
-### 🟩 **Diapositiva 2. Problema y justificación**
+### **Diapositiva 2. Problema y justificación**
 
 * Desconexión entre la enseñanza tradicional del álgebra lineal y las necesidades del agro colombiano.
 * En el Bajo Cauca, los ingenieros agropecuarios **requieren análisis de datos** para optimizar procesos agrícolas.
@@ -27,7 +27,7 @@ Integrar el álgebra lineal con ciencia de datos y problemas reales del sector a
 
 ---
 
-### 🟩 **Diapositiva 3. Enfoque teórico**
+### **Diapositiva 3. Enfoque teórico**
 
 **Base metodológica:**
 Modelo de **Investigación-Acción Educativa (IAE)** (Kemmis & McTaggart, 1988) con ciclos:
@@ -100,12 +100,12 @@ La IAE conecta teoría y práctica, fortaleciendo competencias STEM en contextos
 
 ---
 
-### 🟩 **Diapositiva 7. Conclusiones y proyecciones**
+### **Diapositiva 7. Conclusiones y proyecciones**
 
 **Conclusiones clave:**
-✅ Pertinencia curricular: Álgebra lineal aplicada al agro.
-✅ Innovación metodológica: Ciclos IAE → mejora continua.
-✅ Impacto medible: Formación técnica y socialmente útil.
+* Pertinencia curricular: Álgebra lineal aplicada al agro.
+* Innovación metodológica: Ciclos IAE → mejora continua.
+* Impacto medible: Formación técnica y socialmente útil.
 
 **Proyecciones 2025–2027:**
 
